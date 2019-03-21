@@ -1,0 +1,278 @@
+[I 10:02:55.388 LabApp] The port 8888 is already in use, trying another port.
+[I 10:02:55.405 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
+[I 10:02:55.405 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
+[W 10:02:55.406 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 10:02:55.415 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
+[I 10:02:55.416 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
+[I 10:02:55.416 LabApp] Serving notebooks from local directory: /home/qnkhuat/AI/vision/emotion_retrain
+[I 10:02:55.416 LabApp] The Jupyter Notebook is running at:
+[I 10:02:55.416 LabApp] http://localhost:8889/?token=ea77690bcfe04bac3af2029da02a6d59af2b2f428de9fff5
+[I 10:02:55.416 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:02:55.419 LabApp] No web browser found: could not locate runnable browser.
+[C 10:02:55.420 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1001/jupyter/nbserver-27210-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=ea77690bcfe04bac3af2029da02a6d59af2b2f428de9fff5
+[I 10:03:22.411 LabApp] 302 GET / (127.0.0.1) 0.75ms
+[W 10:03:22.668 LabApp] Clearing invalid/expired login cookie username-localhost-8888
+[W 10:03:22.669 LabApp] Clearing invalid/expired login cookie username-localhost-8888
+[I 10:03:22.670 LabApp] 302 GET /lab? (127.0.0.1) 2.41ms
+[I 10:03:33.740 LabApp] 302 POST /login?next=%2Flab%3F (127.0.0.1) 1.22ms
+[I 10:04:09.329 LabApp] Node v10.13.0
+    
+[I 10:04:09.343 LabApp] Build is up to date
+[W 10:04:09.387 LabApp] 404 POST /git/all_history?1553076248542 (127.0.0.1) 461.31ms referer=http://localhost:8888/lab?
+[W 10:04:09.769 LabApp] 404 GET /lab/api/workspaces/lab?1553076249106 (127.0.0.1): Workspace 'lab' ('lab-a511') not found
+[W 10:04:09.769 LabApp] Workspace 'lab' ('lab-a511') not found
+[W 10:04:09.770 LabApp] 404 GET /lab/api/workspaces/lab?1553076249106 (127.0.0.1) 1.25ms referer=http://localhost:8888/lab?
+[W 10:04:31.605 LabApp] 404 POST /git/all_history?1553076271526 (127.0.0.1) 1.56ms referer=http://localhost:8888/lab?
+[I 10:04:32.069 LabApp] Node v10.13.0
+    
+[I 10:04:32.079 LabApp] Build is up to date
+[I 10:04:39.999 LabApp] Creating new notebook in /
+[I 10:04:41.105 LabApp] Kernel started: 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 10:04:41.606 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 10:04:41.607 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 10:04:41.719 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 10:06:41.286 LabApp] Saving file at /Untitled.ipynb
+[I 10:12:45.088 LabApp] Saving file at /Untitled.ipynb
+[I 10:14:45.447 LabApp] Saving file at /Untitled.ipynb
+[I 10:16:45.797 LabApp] Saving file at /Untitled.ipynb
+[W 10:17:37.915 LabApp] 404 POST /git/all_history?1553077057827 (127.0.0.1) 5.42ms referer=http://localhost:8888/lab?
+[W 10:17:40.383 LabApp] 404 POST /git/all_history?1553077060300 (127.0.0.1) 1.75ms referer=http://localhost:8888/lab?
+[W 10:17:42.427 LabApp] 404 POST /git/all_history?1553077062344 (127.0.0.1) 1.87ms referer=http://localhost:8888/lab?
+[I 10:18:46.132 LabApp] Saving file at /Untitled.ipynb
+[I 10:20:46.539 LabApp] Saving file at /Untitled.ipynb
+[I 10:22:47.068 LabApp] Saving file at /Untitled.ipynb
+[I 10:24:47.704 LabApp] Saving file at /Untitled.ipynb
+[I 10:26:48.386 LabApp] Saving file at /Untitled.ipynb
+[I 10:28:48.954 LabApp] Saving file at /Untitled.ipynb
+[I 10:46:40.982 LabApp] Saving file at /Untitled.ipynb
+[I 10:48:08.218 LabApp] Saving file at /Untitled.ipynb
+[I 10:48:08.770 LabApp] Starting buffering for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:c5cca211-5d95-4e9e-8406-3d6b3dcdee41
+[I 04:21:20.197 LabApp] 302 GET / (127.0.0.1) 2.99ms
+[I 04:22:07.709 LabApp] Node v10.13.0
+    
+[W 04:22:07.766 LabApp] 404 POST /git/all_history?1553142126677 (127.0.0.1) 236.44ms referer=http://localhost:8888/lab?
+[I 04:22:07.766 LabApp] Build is up to date
+[I 04:22:07.834 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 04:22:08.976 LabApp] Starting buffering for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:ad4bb695-bd98-427c-be33-5206c214ecca
+[I 04:22:10.850 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 04:24:10.444 LabApp] Saving file at /Untitled.ipynb
+[I 04:26:10.917 LabApp] Saving file at /Untitled.ipynb
+[I 04:27:50.138 LabApp] Saving file at /Untitled.ipynb
+[I 04:29:50.576 LabApp] Saving file at /Untitled.ipynb
+[I 04:31:10.992 LabApp] Kernel interrupted: 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 04:31:30.712 LabApp] Saving file at /Untitled.ipynb
+[I 04:31:33.691 LabApp] Saving file at /Untitled.ipynb
+[I 04:33:34.097 LabApp] Saving file at /Untitled.ipynb
+[I 04:37:34.474 LabApp] Saving file at /Untitled.ipynb
+[I 04:39:34.920 LabApp] Saving file at /EDA.ipynb
+[I 04:41:35.355 LabApp] Saving file at /Using fastai.ipynb
+[I 04:42:00.136 LabApp] Saving file at /Using fastai.ipynb
+[I 04:44:00.797 LabApp] Saving file at /Using fastai.ipynb
+[I 04:52:01.332 LabApp] Saving file at /Using fastai.ipynb
+[I 04:54:01.691 LabApp] Saving file at /Using fastai.ipynb
+[I 04:56:02.105 LabApp] Saving file at /Using fastai.ipynb
+[I 04:56:56.176 LabApp] Saving file at /Using fastai.ipynb
+[I 04:58:56.813 LabApp] Saving file at /Using fastai.ipynb
+[I 05:00:31.690 LabApp] Starting buffering for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 05:00:36.418 LabApp] Kernel restarted: 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 05:00:38.071 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 05:00:38.072 LabApp] Restoring connection for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 05:00:38.072 LabApp] Replaying 7 buffered messages
+[I 05:00:57.435 LabApp] Saving file at /Using fastai.ipynb
+[I 05:02:57.825 LabApp] Saving file at /Using fastai.ipynb
+[I 05:04:58.390 LabApp] Saving file at /Using fastai.ipynb
+[I 05:06:59.213 LabApp] Saving file at /Using fastai.ipynb
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 05:10:12.955 LabApp] Saving file at /Using fastai.ipynb
+[I 05:10:21.361 LabApp] Saving file at /Using fastai.ipynb
+[I 05:10:22.386 LabApp] Starting buffering for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 05:10:23.899 LabApp] Kernel restarted: 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 05:10:25.540 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 05:10:25.541 LabApp] Restoring connection for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 05:10:25.541 LabApp] Replaying 10 buffered messages
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 05:20:21.876 LabApp] Saving file at /Using fastai.ipynb
+[I 05:22:22.750 LabApp] Saving file at /Using fastai.ipynb
+[I 05:23:06.657 LabApp] Kernel interrupted: 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 05:23:08.288 LabApp] Starting buffering for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 05:23:10.103 LabApp] Kernel restarted: 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 05:23:11.802 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 05:23:11.803 LabApp] Restoring connection for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 05:23:11.803 LabApp] Replaying 10 buffered messages
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 05:24:23.233 LabApp] Saving file at /Using fastai.ipynb
+[I 05:26:23.834 LabApp] Saving file at /Using fastai.ipynb
+[I 05:28:24.288 LabApp] Saving file at /Using fastai.ipynb
+[I 05:30:24.862 LabApp] Saving file at /Using fastai.ipynb
+[I 05:32:25.283 LabApp] Saving file at /Using fastai.ipynb
+[I 05:34:25.850 LabApp] Saving file at /Using fastai.ipynb
+[I 05:36:28.497 LabApp] Saving file at /Using fastai.ipynb
+[I 05:44:11.137 LabApp] Saving file at /Using fastai.ipynb
+[I 05:44:13.589 LabApp] Starting buffering for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 05:44:15.415 LabApp] Kernel restarted: 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 05:44:17.171 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 05:44:17.172 LabApp] Restoring connection for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 05:44:17.172 LabApp] Replaying 10 buffered messages
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 05:46:11.762 LabApp] Saving file at /Using fastai.ipynb
+[I 06:22:21.902 LabApp] Saving file at /Using fastai.ipynb
+[I 06:36:44.715 LabApp] Saving file at /Using fastai.ipynb
+[I 06:38:45.345 LabApp] Saving file at /Using fastai.ipynb
+[I 06:40:45.845 LabApp] Saving file at /Using fastai.ipynb
+[I 06:42:46.380 LabApp] Saving file at /Using fastai.ipynb
+[I 06:44:46.796 LabApp] Saving file at /Using fastai.ipynb
+[I 06:46:47.268 LabApp] Saving file at /Using fastai.ipynb
+[I 06:48:47.747 LabApp] Saving file at /Using fastai.ipynb
+[I 06:50:48.346 LabApp] Saving file at /Using fastai.ipynb
+[I 06:52:49.012 LabApp] Saving file at /Using fastai.ipynb
+[I 06:53:16.928 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 06:53:25.600 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 06:55:02.759 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 06:55:04.069 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 06:56:19.556 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 06:56:20.117 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 06:56:20.853 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 06:56:21.037 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 06:56:23.315 LabApp] Creating new notebook in /
+[I 06:56:24.306 LabApp] Kernel started: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 06:56:25.552 LabApp] Adapting to protocol v5.1 for kernel 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 06:56:45.916 LabApp] Saving file at /proxyles nass.ipynb
+[I 06:56:48.272 LabApp] Saving file at /proxyles nass.ipynb
+[I 06:58:49.558 LabApp] Saving file at /proxyles nass.ipynb
+[I 07:06:50.017 LabApp] Saving file at /proxyles nass.ipynb
+[I 07:10:51.180 LabApp] Saving file at /proxyles nass.ipynb
+[I 07:12:56.689 LabApp] Saving file at /proxyles nass.ipynb
+[I 07:32:11.656 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 07:32:12.739 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 07:32:12.896 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 07:32:18.026 LabApp] Copying fastai-resnet18.ipynb to /
+[W 07:32:25.115 LabApp] 404 GET /api/contents/fastai-resnet18.ipynb?content=0&1553153545037 (127.0.0.1): No such file or directory: fastai-resnet18.ipynb
+[W 07:32:25.116 LabApp] No such file or directory: fastai-resnet18.ipynb
+[W 07:32:25.116 LabApp] 404 GET /api/contents/fastai-resnet18.ipynb?content=0&1553153545037 (127.0.0.1) 2.16ms referer=http://localhost:8888/lab?
+[I 07:32:25.595 LabApp] Uploading file to /fastai-resnet18.ipynb
+[I 07:34:26.629 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:36:21.425 LabApp] Saving file at /fastai-resnet34.ipynb
+[W 07:36:24.360 LabApp] delete /fastai-resnet18-Copy1.ipynb
+[I 07:36:33.491 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:36:35.713 LabApp] Kernel started: 23a18e36-a2e6-427a-bdb9-a14df2d40e0e
+[I 07:36:38.248 LabApp] Adapting to protocol v5.1 for kernel 23a18e36-a2e6-427a-bdb9-a14df2d40e0e
+[I 07:36:41.852 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:38:42.332 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:40:43.320 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:42:50.471 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:44:51.255 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:46:54.037 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:49:00.544 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:51:02.110 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 07:53:02.955 LabApp] Saving file at /fastai-resnet34.ipynb
+[W 08:38:25.564 LabApp] WebSocket ping timeout after 119639 ms.
+[I 08:38:30.579 LabApp] Starting buffering for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[W 08:38:38.252 LabApp] WebSocket ping timeout after 119787 ms.
+[I 08:38:43.255 LabApp] Starting buffering for 23a18e36-a2e6-427a-bdb9-a14df2d40e0e:1896a112-64e6-43ca-a538-18d53d8a9be3
+[W 08:38:47.174 LabApp] WebSocket ping timeout after 119775 ms.
+[I 08:38:52.177 LabApp] Starting buffering for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 08:43:15.617 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 08:43:15.620 LabApp] Restoring connection for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 08:43:15.621 LabApp] Adapting to protocol v5.1 for kernel 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 08:43:15.621 LabApp] Restoring connection for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 08:43:15.910 LabApp] Adapting to protocol v5.1 for kernel 23a18e36-a2e6-427a-bdb9-a14df2d40e0e
+[I 08:43:15.910 LabApp] Restoring connection for 23a18e36-a2e6-427a-bdb9-a14df2d40e0e:1896a112-64e6-43ca-a538-18d53d8a9be3
+[W 08:45:45.622 LabApp] WebSocket ping timeout after 119626 ms.
+[W 08:45:45.623 LabApp] WebSocket ping timeout after 119293 ms.
+[W 08:45:45.913 LabApp] WebSocket ping timeout after 119582 ms.
+[I 08:45:50.626 LabApp] Starting buffering for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 08:45:50.627 LabApp] Starting buffering for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 08:45:50.914 LabApp] Starting buffering for 23a18e36-a2e6-427a-bdb9-a14df2d40e0e:1896a112-64e6-43ca-a538-18d53d8a9be3
+[I 08:46:35.742 LabApp] Adapting to protocol v5.1 for kernel 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 08:46:35.743 LabApp] Restoring connection for 17a3d95f-9f87-4d64-9d46-a2570010eeb6:f7e1884f-05bf-441c-8246-8b18d383c623
+[I 08:46:36.073 LabApp] Adapting to protocol v5.1 for kernel 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 08:46:36.073 LabApp] Adapting to protocol v5.1 for kernel 23a18e36-a2e6-427a-bdb9-a14df2d40e0e
+[I 08:46:36.074 LabApp] Restoring connection for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 08:46:36.075 LabApp] Restoring connection for 23a18e36-a2e6-427a-bdb9-a14df2d40e0e:1896a112-64e6-43ca-a538-18d53d8a9be3
+[I 09:15:23.896 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:15:26.541 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:15:29.590 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:15:30.352 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:17:33.877 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:18:08.695 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:20:09.105 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:20:33.298 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:20:34.886 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:20:35.345 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:20:35.498 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:20:35.667 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:20:36.231 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:20:45.477 LabApp] Saving file at /proxyles nass.ipynb
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 09:21:42.612 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:21:43.944 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:21:45.478 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:21:49.064 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:21:53.474 LabApp] Kernel shutdown: 17a3d95f-9f87-4d64-9d46-a2570010eeb6
+[I 09:21:53.682 LabApp] Kernel shutdown: 23a18e36-a2e6-427a-bdb9-a14df2d40e0e
+[I 09:22:15.294 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 6aac322d-e87b-40ed-b501-4489b57fcc92 restarted
+[I 09:22:41.344 LabApp] Starting buffering for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:22:41.553 LabApp] Kernel restarted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:22:42.392 LabApp] Adapting to protocol v5.1 for kernel 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:22:42.393 LabApp] Restoring connection for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:22:42.393 LabApp] Replaying 9 buffered messages
+[I 09:22:47.229 LabApp] Starting buffering for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:22:47.436 LabApp] Kernel restarted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:22:48.438 LabApp] Adapting to protocol v5.1 for kernel 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:22:48.439 LabApp] Restoring connection for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:22:48.439 LabApp] Replaying 10 buffered messages
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 09:23:49.557 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:24:40.479 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:25:22.445 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:25:23.776 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:25:30.942 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:25:37.514 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:25:42.648 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:25:45.284 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:25:47.402 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:27:59.022 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:28:26.975 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:29:41.420 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:29:42.898 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:29:43.877 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:30:03.609 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:30:04.763 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:30:11.533 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:30:53.411 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:37:32.060 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:39:31.378 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:39:32.064 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:39:32.496 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:39:33.430 LabApp] Starting buffering for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:39:34.140 LabApp] Kernel restarted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:39:34.929 LabApp] Adapting to protocol v5.1 for kernel 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:39:34.930 LabApp] Restoring connection for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:39:34.930 LabApp] Replaying 9 buffered messages
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 09:40:21.431 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:40:24.596 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:40:26.081 LabApp] Starting buffering for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:40:26.689 LabApp] Kernel restarted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:40:27.460 LabApp] Adapting to protocol v5.1 for kernel 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:40:27.461 LabApp] Restoring connection for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:40:27.461 LabApp] Replaying 7 buffered messages
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 09:41:10.772 LabApp] Kernel interrupted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:41:19.383 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:41:29.692 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 6aac322d-e87b-40ed-b501-4489b57fcc92 restarted
+[I 09:41:34.848 LabApp] Starting buffering for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:41:35.055 LabApp] Kernel restarted: 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:41:35.865 LabApp] Adapting to protocol v5.1 for kernel 6aac322d-e87b-40ed-b501-4489b57fcc92
+[I 09:41:35.865 LabApp] Restoring connection for 6aac322d-e87b-40ed-b501-4489b57fcc92:a5b99f7f-5208-4bbe-a386-37e73b32cca4
+[I 09:41:35.866 LabApp] Replaying 7 buffered messages
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
