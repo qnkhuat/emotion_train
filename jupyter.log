@@ -1,0 +1,81 @@
+nohup: ignoring input
+[I 14:00:17.859 LabApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[I 14:00:18.037 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
+[I 14:00:18.037 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
+[W 14:00:18.041 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 14:00:18.050 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
+[I 14:00:18.050 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
+[I 14:00:18.050 LabApp] Serving notebooks from local directory: /home/qnkhuat/AI/vision/emotion_retrain
+[I 14:00:18.050 LabApp] The Jupyter Notebook is running at:
+[I 14:00:18.050 LabApp] http://localhost:8888/?token=743be3131b064a73d10c8a653859ae6579bc0ad927b8e07e
+[I 14:00:18.050 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:00:18.054 LabApp] No web browser found: could not locate runnable browser.
+[C 14:00:18.054 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1001/jupyter/nbserver-9265-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=743be3131b064a73d10c8a653859ae6579bc0ad927b8e07e
+[I 14:00:27.775 LabApp] 302 GET /?token=743be3131b064a73d10c8a653859ae6579bc0ad927b8e07e (127.0.0.1) 0.84ms
+[I 14:00:49.397 LabApp] Node v10.13.0
+    
+[I 14:00:49.408 LabApp] Build is up to date
+[I 14:00:51.289 LabApp] Kernel started: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 14:00:51.300 LabApp] Kernel started: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:00:51.455 LabApp] Kernel started: f57eef36-672f-4985-9995-9525868b961b
+[I 14:00:51.719 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 14:00:51.719 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 14:00:51.949 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:00:51.949 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:00:52.152 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
+[I 14:00:52.152 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 14:01:46.491 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:02:51.737 LabApp] Saving file at /proxyles nass.ipynb
+[I 14:05:00.320 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:05:02.206 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:8df32f22-3937-4e91-b660-3017f04a80f9
+[I 14:05:02.915 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:05:03.733 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:05:03.734 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:8df32f22-3937-4e91-b660-3017f04a80f9
+[I 14:05:03.734 LabApp] Replaying 9 buffered messages
+[I 14:05:03.885 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:07:01.019 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:07:45.507 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
+[I 14:07:45.914 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:07:46.680 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:07:46.681 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:07:46.681 LabApp] Discarding 10 buffered messages for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
+[I 14:07:56.599 LabApp] Saving file at /fastai-resnet18.ipynb
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[I 14:08:52.496 LabApp] Saving file at /proxyles nass.ipynb
+[I 14:09:57.559 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:10:53.094 LabApp] Saving file at /proxyles nass.ipynb
+[I 14:12:53.648 LabApp] Saving file at /proxyles nass.ipynb
+[I 14:14:10.967 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
+[I 14:14:11.676 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:14:12.469 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:14:12.470 LabApp] Discarding 10 buffered messages for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
+[I 14:14:12.629 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:14:41.078 LabApp] Kernel interrupted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:14:53.090 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
+[I 14:14:53.800 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:14:53.977 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:14:54.125 LabApp] Saving file at /proxyles nass.ipynb
+[I 14:14:54.736 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:14:54.736 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 14:14:54.737 LabApp] Discarding 9 buffered messages for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
+[I 14:16:54.575 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:16:54.961 LabApp] Saving file at /proxyles nass.ipynb
+[I 14:18:55.256 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:18:55.611 LabApp] Saving file at /proxyles nass.ipynb
+[I 14:20:56.350 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:22:57.434 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:29:30.485 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:29:45.605 LabApp] Saving file at /proxyles nass.ipynb
+[I 14:31:38.464 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:31:52.178 LabApp] Saving file at /proxyles nass.ipynb
+[I 14:33:39.275 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:35:39.967 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 14:37:24.550 LabApp] Starting buffering for b3712bee-e6a0-4386-a98b-4c63b703e643:dfeba864-bf8c-4d1f-a72f-a4bcb6106b76
+[I 14:37:24.551 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
+[I 14:37:24.551 LabApp] Starting buffering for f57eef36-672f-4985-9995-9525868b961b:4c117081-ea8d-40a3-9a63-0ba7152f48b0
