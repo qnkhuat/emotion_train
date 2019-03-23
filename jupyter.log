@@ -809,3 +809,83 @@ Can't write to '/home/qnkhuat/data/emotion_compilation_split/train_log/resnet18_
 [I 03:57:01.036 LabApp] Saving file at /template.ipynb
 [I 03:57:01.079 LabApp] Saving file at /template.ipynb
 [I 03:57:01.218 LabApp] Saving file at /template.ipynb
+[I 04:00:05.295 LabApp] Saving file at /template.ipynb
+[I 04:00:05.595 LabApp] Saving file at /template.ipynb
+[I 04:00:05.807 LabApp] Saving file at /template.ipynb
+[W 04:00:10.998 LabApp] delete /fastai-resnet18.ipynb
+[W 04:00:16.431 LabApp] delete /fastai-resnet34.ipynb
+[I 04:00:18.188 LabApp] Saving file at /template.ipynb
+[I 04:00:35.351 LabApp] Copying template.ipynb to /
+[I 04:00:46.956 LabApp] Saving file at /template.ipynb
+[I 04:00:51.798 LabApp] Kernel started: 225e3192-0253-48a6-985e-4eb398532c39
+[I 04:00:52.475 LabApp] Adapting to protocol v5.1 for kernel 225e3192-0253-48a6-985e-4eb398532c39
+[I 04:02:51.518 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 04:04:23.483 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:36:58.386 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:39:00.833 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:39:16.623 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:40:31.835 LabApp] Kernel interrupted: 225e3192-0253-48a6-985e-4eb398532c39
+[I 05:41:00.013 LabApp] Starting buffering for 225e3192-0253-48a6-985e-4eb398532c39:983b93dd-dff0-461b-babc-8b910a6961db
+[I 05:41:00.823 LabApp] Kernel restarted: 225e3192-0253-48a6-985e-4eb398532c39
+[I 05:41:01.687 LabApp] Adapting to protocol v5.1 for kernel 225e3192-0253-48a6-985e-4eb398532c39
+[I 05:41:01.688 LabApp] Restoring connection for 225e3192-0253-48a6-985e-4eb398532c39:983b93dd-dff0-461b-babc-8b910a6961db
+[I 05:41:01.688 LabApp] Replaying 7 buffered messages
+[I 05:41:02.386 LabApp] Starting buffering for 225e3192-0253-48a6-985e-4eb398532c39:983b93dd-dff0-461b-babc-8b910a6961db
+[I 05:41:02.593 LabApp] Kernel restarted: 225e3192-0253-48a6-985e-4eb398532c39
+[I 05:41:03.387 LabApp] Adapting to protocol v5.1 for kernel 225e3192-0253-48a6-985e-4eb398532c39
+[I 05:41:03.388 LabApp] Restoring connection for 225e3192-0253-48a6-985e-4eb398532c39:983b93dd-dff0-461b-babc-8b910a6961db
+[I 05:41:03.388 LabApp] Replaying 7 buffered messages
+[I 05:41:05.068 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:41:40.312 LabApp] Saving file at /training_template.ipynb
+[I 05:41:40.825 LabApp] Saving file at /training_template.ipynb
+[I 05:41:41.400 LabApp] Saving file at /training_template.ipynb
+[I 05:43:05.857 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:43:09.334 LabApp] Copying training_template.ipynb to /
+[I 05:43:19.050 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:43:31.090 LabApp] Kernel started: 7a6365ca-901b-402f-aeba-5bb66158dbd6
+[I 05:43:31.813 LabApp] Adapting to protocol v5.1 for kernel 7a6365ca-901b-402f-aeba-5bb66158dbd6
+[I 05:43:53.190 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:44:07.471 LabApp] Adapting to protocol v5.1 for kernel f3dc4d24-2dfa-45fe-937f-dae2668f97a8
+[I 05:44:25.769 LabApp] Saving file at /training_template.ipynb
+[I 05:44:26.242 LabApp] Saving file at /training_template.ipynb
+[I 05:45:14.135 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:45:16.679 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:45:16.721 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:45:19.866 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:45:20.861 LabApp] Saving file at /training_template.ipynb
+[I 05:45:21.055 LabApp] Saving file at /training_template.ipynb
+[I 05:45:21.100 LabApp] Saving file at /training_template.ipynb
+[I 05:45:21.234 LabApp] Saving file at /training_template.ipynb
+[I 05:45:31.505 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:45:57.936 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:46:01.775 LabApp] Saving file at /training_template.ipynb
+[I 05:46:02.039 LabApp] Saving file at /training_template.ipynb
+[I 05:46:02.227 LabApp] Saving file at /training_template.ipynb
+[I 05:46:15.425 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:46:16.236 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:46:16.481 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:46:21.908 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:46:41.081 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:47:29.512 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:47:58.996 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:49:30.292 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:49:59.763 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:50:02.771 LabApp] Saving file at /training_template.ipynb
+[I 05:50:03.873 LabApp] Saving file at /training_template.ipynb
+[I 05:50:06.276 LabApp] Saving file at /training_template.ipynb
+[I 05:51:32.193 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:52:00.336 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:53:04.967 LabApp] Saving file at /training_template.ipynb
+[I 05:53:05.915 LabApp] Saving file at /training_template.ipynb
+[I 05:53:06.208 LabApp] Saving file at /training_template.ipynb
+[I 05:53:09.782 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:54:01.169 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:55:06.945 LabApp] Saving file at /training_template.ipynb
+[I 05:55:11.029 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:56:01.797 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:57:12.182 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 05:58:02.537 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 05:59:13.550 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 06:00:03.485 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 06:01:14.231 LabApp] Saving file at /restnet18-fastai.ipynb
+[I 06:02:04.368 LabApp] Saving file at /resnet34-fastai.ipynb
