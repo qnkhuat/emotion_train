@@ -1,269 +1,811 @@
 nohup: ignoring input
-[I 14:00:17.859 LabApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
-[I 14:00:18.037 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
-[I 14:00:18.037 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
-[W 14:00:18.041 LabApp] JupyterLab server extension not enabled, manually loading...
-[I 14:00:18.050 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
-[I 14:00:18.050 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
-[I 14:00:18.050 LabApp] Serving notebooks from local directory: /home/qnkhuat/AI/vision/emotion_retrain
-[I 14:00:18.050 LabApp] The Jupyter Notebook is running at:
-[I 14:00:18.050 LabApp] http://localhost:8888/?token=743be3131b064a73d10c8a653859ae6579bc0ad927b8e07e
-[I 14:00:18.050 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[W 14:00:18.054 LabApp] No web browser found: could not locate runnable browser.
-[C 14:00:18.054 LabApp] 
+[I 01:35:17.722 LabApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[I 01:35:18.304 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
+[I 01:35:18.304 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
+[W 01:35:18.311 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 01:35:18.320 LabApp] JupyterLab extension loaded from /home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jupyterlab
+[I 01:35:18.321 LabApp] JupyterLab application directory is /home/qnkhuat/miniconda3/envs/dev/share/jupyter/lab
+[I 01:35:18.321 LabApp] Serving notebooks from local directory: /home/qnkhuat/AI/vision/emotion_retrain
+[I 01:35:18.321 LabApp] The Jupyter Notebook is running at:
+[I 01:35:18.321 LabApp] http://localhost:8888/?token=52432f820acd1550e005cccac8ea9a49a229806e461eb8d4
+[I 01:35:18.321 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 01:35:18.327 LabApp] No web browser found: could not locate runnable browser.
+[C 01:35:18.327 LabApp] 
     
     To access the notebook, open this file in a browser:
-        file:///run/user/1001/jupyter/nbserver-9265-open.html
+        file:///run/user/1001/jupyter/nbserver-4172-open.html
     Or copy and paste one of these URLs:
-        http://localhost:8888/?token=743be3131b064a73d10c8a653859ae6579bc0ad927b8e07e
-[I 14:00:27.775 LabApp] 302 GET /?token=743be3131b064a73d10c8a653859ae6579bc0ad927b8e07e (127.0.0.1) 0.84ms
-[I 14:00:49.397 LabApp] Node v10.13.0
+        http://localhost:8888/?token=52432f820acd1550e005cccac8ea9a49a229806e461eb8d4
+[I 01:35:23.108 LabApp] 302 GET / (127.0.0.1) 0.70ms
+[W 01:35:23.313 LabApp] Clearing invalid/expired login cookie username-localhost-8888
+[W 01:35:23.314 LabApp] Clearing invalid/expired login cookie username-localhost-8888
+[I 01:35:23.315 LabApp] 302 GET /lab? (127.0.0.1) 2.04ms
+[I 01:35:38.501 LabApp] 302 GET /?token=52432f820acd1550e005cccac8ea9a49a229806e461eb8d4 (127.0.0.1) 0.60ms
+[I 01:35:50.091 LabApp] Node v10.13.0
     
-[I 14:00:49.408 LabApp] Build is up to date
-[I 14:00:51.289 LabApp] Kernel started: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 14:00:51.300 LabApp] Kernel started: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:00:51.455 LabApp] Kernel started: f57eef36-672f-4985-9995-9525868b961b
-[I 14:00:51.719 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 14:00:51.719 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 14:00:51.949 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:00:51.949 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:00:52.152 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
-[I 14:00:52.152 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
-THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
-[I 14:01:46.491 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:02:51.737 LabApp] Saving file at /proxyles nass.ipynb
-[I 14:05:00.320 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:05:02.206 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:8df32f22-3937-4e91-b660-3017f04a80f9
-[I 14:05:02.915 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:05:03.733 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:05:03.734 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:8df32f22-3937-4e91-b660-3017f04a80f9
-[I 14:05:03.734 LabApp] Replaying 9 buffered messages
-[I 14:05:03.885 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:07:01.019 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:07:45.507 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
-[I 14:07:45.914 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:07:46.680 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:07:46.681 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:07:46.681 LabApp] Discarding 10 buffered messages for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
-[I 14:07:56.599 LabApp] Saving file at /fastai-resnet18.ipynb
-THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
-[I 14:08:52.496 LabApp] Saving file at /proxyles nass.ipynb
-[I 14:09:57.559 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:10:53.094 LabApp] Saving file at /proxyles nass.ipynb
-[I 14:12:53.648 LabApp] Saving file at /proxyles nass.ipynb
-[I 14:14:10.967 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
-[I 14:14:11.676 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:14:12.469 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:14:12.470 LabApp] Discarding 10 buffered messages for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
-[I 14:14:12.629 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:14:41.078 LabApp] Kernel interrupted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:14:53.090 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
-[I 14:14:53.800 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:14:53.977 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:14:54.125 LabApp] Saving file at /proxyles nass.ipynb
-[I 14:14:54.736 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:14:54.736 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 14:14:54.737 LabApp] Discarding 9 buffered messages for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
-[I 14:16:54.575 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:16:54.961 LabApp] Saving file at /proxyles nass.ipynb
-[I 14:18:55.256 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:18:55.611 LabApp] Saving file at /proxyles nass.ipynb
-[I 14:20:56.350 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:22:57.434 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:29:30.485 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:29:45.605 LabApp] Saving file at /proxyles nass.ipynb
-[I 14:31:38.464 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:31:52.178 LabApp] Saving file at /proxyles nass.ipynb
-[I 14:33:39.275 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:35:39.967 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 14:37:24.550 LabApp] Starting buffering for b3712bee-e6a0-4386-a98b-4c63b703e643:dfeba864-bf8c-4d1f-a72f-a4bcb6106b76
-[I 14:37:24.551 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
-[I 14:37:24.551 LabApp] Starting buffering for f57eef36-672f-4985-9995-9525868b961b:4c117081-ea8d-40a3-9a63-0ba7152f48b0
-[I 09:31:07.432 LabApp] 302 GET / (127.0.0.1) 0.67ms
-[I 09:31:07.893 LabApp] 302 GET / (127.0.0.1) 0.39ms
-[I 09:31:24.324 LabApp] Node v10.13.0
+[I 01:35:50.102 LabApp] Build is up to date
+[I 01:35:52.351 LabApp] Kernel started: a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 01:35:52.361 LabApp] Kernel started: 7f19adfd-4d8f-4661-9db9-35d5b971445a
+[I 01:35:52.620 LabApp] Kernel started: 1157f996-3a9a-42f7-a9c8-8da001f8cefd
+[I 01:35:57.237 LabApp] Adapting to protocol v5.1 for kernel a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 01:35:57.242 LabApp] Adapting to protocol v5.1 for kernel a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 01:35:57.243 LabApp] Adapting to protocol v5.1 for kernel 7f19adfd-4d8f-4661-9db9-35d5b971445a
+[I 01:35:57.243 LabApp] Adapting to protocol v5.1 for kernel 7f19adfd-4d8f-4661-9db9-35d5b971445a
+[I 01:35:57.437 LabApp] Adapting to protocol v5.1 for kernel 1157f996-3a9a-42f7-a9c8-8da001f8cefd
+[I 01:35:57.438 LabApp] Adapting to protocol v5.1 for kernel 1157f996-3a9a-42f7-a9c8-8da001f8cefd
+[I 01:37:52.310 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:38:32.651 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:40:35.735 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:42:36.910 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:44:38.420 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:46:39.228 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:48:40.290 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:50:41.224 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:52:42.038 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:54:32.029 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:54:34.698 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:54:50.566 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:54:51.672 LabApp] Starting buffering for a104537c-b7f0-4340-8112-fbb76b9a72be:6ddf4baa-5918-4573-a500-870dd3050a24
+[I 01:54:56.725 LabApp] Kernel restarted: a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 01:54:57.938 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:54:57.979 LabApp] Adapting to protocol v5.1 for kernel a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 01:54:57.980 LabApp] Restoring connection for a104537c-b7f0-4340-8112-fbb76b9a72be:6ddf4baa-5918-4573-a500-870dd3050a24
+[I 01:56:58.512 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 01:59:00.295 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:00:50.880 LabApp] Kernel interrupted: a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:01:01.359 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:01:06.994 LabApp] Starting buffering for a104537c-b7f0-4340-8112-fbb76b9a72be:6ddf4baa-5918-4573-a500-870dd3050a24
+[I 02:01:07.803 LabApp] Kernel restarted: a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:01:08.936 LabApp] Adapting to protocol v5.1 for kernel a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:01:08.937 LabApp] Restoring connection for a104537c-b7f0-4340-8112-fbb76b9a72be:6ddf4baa-5918-4573-a500-870dd3050a24
+[I 02:01:08.937 LabApp] Replaying 10 buffered messages
+[I 02:01:22.309 LabApp] Kernel interrupted: a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:01:28.985 LabApp] Kernel interrupted: a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:02:02.395 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:02:04.013 LabApp] Starting buffering for a104537c-b7f0-4340-8112-fbb76b9a72be:6ddf4baa-5918-4573-a500-870dd3050a24
+[I 02:02:09.193 LabApp] Kernel restarted: a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:02:10.179 LabApp] Adapting to protocol v5.1 for kernel a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:02:10.179 LabApp] Restoring connection for a104537c-b7f0-4340-8112-fbb76b9a72be:6ddf4baa-5918-4573-a500-870dd3050a24
+[I 02:02:10.180 LabApp] Replaying 43 buffered messages
+[I 02:04:03.224 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:06:03.841 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:08:04.664 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:10:05.292 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:12:06.237 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:14:09.209 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:16:00.429 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 02:16:09.919 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:18:02.169 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 02:18:10.825 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:18:52.279 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:19:18.341 LabApp] Creating new directory in /
+[I 02:19:35.303 LabApp] Creating new directory in /train_log
+[W 02:19:42.746 LabApp] delete /train_log/Untitled Folder
+[I 02:20:52.988 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:22:54.818 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:24:57.304 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:26:58.327 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:28:25.330 LabApp] Starting buffering for 1157f996-3a9a-42f7-a9c8-8da001f8cefd:8d549d50-ad84-467a-bcd4-ddb5f3c621ce
+[I 02:28:25.333 LabApp] Starting buffering for a104537c-b7f0-4340-8112-fbb76b9a72be:6ddf4baa-5918-4573-a500-870dd3050a24
+[I 02:28:25.333 LabApp] Starting buffering for 7f19adfd-4d8f-4661-9db9-35d5b971445a:c81133c9-7dfc-43e5-ab87-1e1fe3e66018
+[I 02:29:20.916 LabApp] Adapting to protocol v5.1 for kernel 1157f996-3a9a-42f7-a9c8-8da001f8cefd
+[I 02:29:21.070 LabApp] Node v10.13.0
     
-[I 09:31:24.335 LabApp] Build is up to date
-[I 09:31:26.566 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 09:31:26.581 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 09:31:27.658 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
-[I 09:31:54.135 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
-[I 09:33:26.664 LabApp] Saving file at /proxyles nass.ipynb
-[I 09:35:22.466 LabApp] Saving file at /proxyles nass.ipynb
-[I 09:47:22.852 LabApp] Saving file at /proxyles nass.ipynb
-[I 09:47:54.387 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 09:49:57.417 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 09:53:57.873 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 09:54:21.895 LabApp] Kernel interrupted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 09:55:58.547 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 09:57:59.788 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:00:00.364 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:02:01.052 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:04:01.543 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:06:02.123 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:08:02.541 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:10:03.063 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:12:03.631 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:13:09.415 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:13:10.656 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
-[I 10:13:11.566 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 02:29:21.089 LabApp] Build is up to date
+[I 02:29:21.351 LabApp] Starting buffering for 1157f996-3a9a-42f7-a9c8-8da001f8cefd:1af40a94-9caf-464f-86dd-35369b27fa99
+[I 02:29:23.102 LabApp] Adapting to protocol v5.1 for kernel a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:29:23.104 LabApp] Discarding 486 buffered messages for a104537c-b7f0-4340-8112-fbb76b9a72be:6ddf4baa-5918-4573-a500-870dd3050a24
+[I 02:29:23.168 LabApp] Adapting to protocol v5.1 for kernel 7f19adfd-4d8f-4661-9db9-35d5b971445a
+[I 02:29:23.419 LabApp] Adapting to protocol v5.1 for kernel 1157f996-3a9a-42f7-a9c8-8da001f8cefd
+[I 02:31:23.454 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:33:24.444 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:46:15.393 LabApp] Starting buffering for a104537c-b7f0-4340-8112-fbb76b9a72be:c8d31763-88c1-475e-bf8b-7c2cafb056c3
+[I 02:46:15.394 LabApp] Starting buffering for 7f19adfd-4d8f-4661-9db9-35d5b971445a:94bf65a3-3687-46fc-a2bf-0e01703de10c
+[I 02:46:15.394 LabApp] Starting buffering for 1157f996-3a9a-42f7-a9c8-8da001f8cefd:6000b229-0076-44c2-b57b-e2709ff8eb99
+[I 02:47:09.555 LabApp] Node v10.13.0
+    
+[I 02:47:09.621 LabApp] Build is up to date
+[I 02:47:10.752 LabApp] Adapting to protocol v5.1 for kernel 1157f996-3a9a-42f7-a9c8-8da001f8cefd
+[I 02:47:11.381 LabApp] Starting buffering for 1157f996-3a9a-42f7-a9c8-8da001f8cefd:582f8a8d-3770-458c-9c0c-e7eed28789de
+[I 02:47:13.324 LabApp] Adapting to protocol v5.1 for kernel a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:47:13.749 LabApp] Adapting to protocol v5.1 for kernel 7f19adfd-4d8f-4661-9db9-35d5b971445a
+[I 02:47:14.159 LabApp] Adapting to protocol v5.1 for kernel 1157f996-3a9a-42f7-a9c8-8da001f8cefd
+[I 02:49:12.883 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:50:04.076 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:50:08.641 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:50:09.718 LabApp] Starting buffering for a104537c-b7f0-4340-8112-fbb76b9a72be:0c4a1a7f-e8bd-445e-86e6-eeeecc37e1ca
+[I 02:50:10.426 LabApp] Kernel restarted: a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:50:11.493 LabApp] Adapting to protocol v5.1 for kernel a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:50:11.494 LabApp] Restoring connection for a104537c-b7f0-4340-8112-fbb76b9a72be:0c4a1a7f-e8bd-445e-86e6-eeeecc37e1ca
+[I 02:50:11.494 LabApp] Replaying 10 buffered messages
+[I 02:50:48.545 LabApp] Copying fastai-resnet18.ipynb to /
+[I 02:51:44.058 LabApp] Kernel started: d854aee4-31b5-4ae2-97b0-fa970d27253a
+[I 02:51:44.781 LabApp] Adapting to protocol v5.1 for kernel d854aee4-31b5-4ae2-97b0-fa970d27253a
+[I 02:52:04.447 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:52:41.633 LabApp] 302 GET / (127.0.0.1) 0.81ms
+[I 02:52:41.850 LabApp] 302 GET /lab? (127.0.0.1) 1.25ms
+[I 02:53:02.963 LabApp] 302 POST /login?next=%2Flab%3F (127.0.0.1) 1.36ms
+[I 02:53:19.024 LabApp] Adapting to protocol v5.1 for kernel d854aee4-31b5-4ae2-97b0-fa970d27253a
+[I 02:53:19.079 LabApp] Node v10.13.0
+    
+[I 02:53:19.092 LabApp] Build is up to date
+[I 02:53:21.573 LabApp] Adapting to protocol v5.1 for kernel a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 02:53:21.775 LabApp] Adapting to protocol v5.1 for kernel d854aee4-31b5-4ae2-97b0-fa970d27253a
+[I 02:53:43.873 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 02:54:05.286 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:55:44.735 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[W 02:55:52.692 LabApp] delete /train_log
+[I 02:57:06.336 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 02:57:08.979 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 02:57:32.425 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 02:57:36.882 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 02:57:54.042 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 02:58:35.574 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 02:58:43.315 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 02:59:01.182 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 02:59:54.639 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:01:02.061 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:02:00.305 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:03:06.151 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:05:08.716 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:05:56.898 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:07:57.520 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:08:27.049 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:08:39.873 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:10:40.919 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:12:41.936 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:14:42.972 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:16:01.478 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:16:36.325 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:18:02.537 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:18:32.766 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:18:39.503 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:18:42.177 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:18:58.267 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:19:54.688 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:20:03.625 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:21:02.801 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:22:04.377 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:23:03.943 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:24:05.510 LabApp] Saving file at /fastai-resnet18.ipynb
+[NbConvertApp] WARNING | pattern 'train_log/resnet18_fastai/000.23-03-2019-03-20/fastai_resnet18.html' matched no files
+This application is used to convert notebook files (*.ipynb) to various other
+formats.
+
+WARNING: THE COMMANDLINE INTERFACE MAY CHANGE IN FUTURE RELEASES.
+
+Options
+-------
+
+Arguments that take values are actually convenience aliases to full
+Configurables, whose aliases are listed on the help line. For more information
+on full configurables, see '--help-all'.
+
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+--generate-config
+    generate default config file
+-y
+    Answer yes to any questions instead of prompting.
+--execute
+    Execute the notebook prior to export.
+--allow-errors
+    Continue notebook execution even if one of the cells throws an error and include the error message in the cell output (the default behaviour is to abort conversion). This flag is only relevant if '--execute' was specified, too.
+--stdin
+    read a single notebook file from stdin. Write the resulting notebook with default basename 'notebook.*'
+--stdout
+    Write notebook output to stdout instead of files.
+--inplace
+    Run nbconvert in place, overwriting the existing notebook (only 
+    relevant when converting to notebook format)
+--clear-output
+    Clear output of current file and save in place, 
+    overwriting the existing notebook.
+--no-prompt
+    Exclude input and output prompts from converted document.
+--no-input
+    Exclude input cells and output prompts from converted document. 
+    This mode is ideal for generating code-free reports.
+--log-level=<Enum> (Application.log_level)
+    Default: 30
+    Choices: (0, 10, 20, 30, 40, 50, 'DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL')
+    Set the log level by value or name.
+--config=<Unicode> (JupyterApp.config_file)
+    Default: ''
+    Full path of a config file.
+--to=<Unicode> (NbConvertApp.export_format)
+    Default: 'html'
+    The export format to be used, either one of the built-in formats, or a
+    dotted object name that represents the import path for an `Exporter` class
+--template=<Unicode> (TemplateExporter.template_file)
+    Default: ''
+    Name of the template file to use
+--writer=<DottedObjectName> (NbConvertApp.writer_class)
+    Default: 'FilesWriter'
+    Writer class used to write the  results of the conversion
+--post=<DottedOrNone> (NbConvertApp.postprocessor_class)
+    Default: ''
+    PostProcessor class used to write the results of the conversion
+--output=<Unicode> (NbConvertApp.output_base)
+    Default: ''
+    overwrite base name use for output files. can only be used when converting
+    one notebook at a time.
+--output-dir=<Unicode> (FilesWriter.build_directory)
+    Default: ''
+    Directory to write output(s) to. Defaults to output to the directory of each
+    notebook. To recover previous default behaviour (outputting to the current
+    working directory) use . as the flag value.
+--reveal-prefix=<Unicode> (SlidesExporter.reveal_url_prefix)
+    Default: ''
+    The URL prefix for reveal.js (version 3.x). This defaults to the reveal CDN,
+    but can be any url pointing to a copy  of reveal.js.
+    For speaker notes to work, this must be a relative path to a local  copy of
+    reveal.js: e.g., "reveal.js".
+    If a relative path is given, it must be a subdirectory of the current
+    directory (from which the server is run).
+    See the usage documentation
+    (https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-
+    slideshow) for more details.
+--nbformat=<Enum> (NotebookExporter.nbformat_version)
+    Default: 4
+    Choices: [1, 2, 3, 4]
+    The nbformat version to write. Use this to downgrade notebooks.
+
+To see all available configurables, use `--help-all`
+
+Examples
+--------
+
+    The simplest way to use nbconvert is
+    
+    > jupyter nbconvert mynotebook.ipynb
+    
+    which will convert mynotebook.ipynb to the default format (probably HTML).
+    
+    You can specify the export format with `--to`.
+    Options include ['asciidoc', 'custom', 'html', 'latex', 'markdown', 'notebook', 'pdf', 'python', 'rst', 'script', 'slides']
+    
+    > jupyter nbconvert --to latex mynotebook.ipynb
+    
+    Both HTML and LaTeX support multiple output templates. LaTeX includes
+    'base', 'article' and 'report'.  HTML includes 'basic' and 'full'. You
+    can specify the flavor of the format used.
+    
+    > jupyter nbconvert --to html --template basic mynotebook.ipynb
+    
+    You can also pipe the output to stdout, rather than a file
+    
+    > jupyter nbconvert mynotebook.ipynb --stdout
+    
+    PDF is generated via latex
+    
+    > jupyter nbconvert mynotebook.ipynb --to pdf
+    
+    You can get (and serve) a Reveal.js-powered slideshow
+    
+    > jupyter nbconvert myslides.ipynb --to slides --post serve
+    
+    Multiple notebooks can be given at the command line in a couple of 
+    different ways:
+    
+    > jupyter nbconvert notebook*.ipynb
+    > jupyter nbconvert notebook1.ipynb notebook2.ipynb
+    
+    or you can specify the notebooks list in a config file, containing::
+    
+        c.NbConvertApp.notebooks = ["my_notebook.ipynb"]
+    
+    > jupyter nbconvert --config mycfg.py
+
+[I 03:25:04.600 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[NbConvertApp] WARNING | pattern 'train_log/resnet18_fastai/000.23-03-2019-03-20/fastai_resnet18.html' matched no files
+This application is used to convert notebook files (*.ipynb) to various other
+formats.
+
+WARNING: THE COMMANDLINE INTERFACE MAY CHANGE IN FUTURE RELEASES.
+
+Options
+-------
+
+Arguments that take values are actually convenience aliases to full
+Configurables, whose aliases are listed on the help line. For more information
+on full configurables, see '--help-all'.
+
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+--generate-config
+    generate default config file
+-y
+    Answer yes to any questions instead of prompting.
+--execute
+    Execute the notebook prior to export.
+--allow-errors
+    Continue notebook execution even if one of the cells throws an error and include the error message in the cell output (the default behaviour is to abort conversion). This flag is only relevant if '--execute' was specified, too.
+--stdin
+    read a single notebook file from stdin. Write the resulting notebook with default basename 'notebook.*'
+--stdout
+    Write notebook output to stdout instead of files.
+--inplace
+    Run nbconvert in place, overwriting the existing notebook (only 
+    relevant when converting to notebook format)
+--clear-output
+    Clear output of current file and save in place, 
+    overwriting the existing notebook.
+--no-prompt
+    Exclude input and output prompts from converted document.
+--no-input
+    Exclude input cells and output prompts from converted document. 
+    This mode is ideal for generating code-free reports.
+--log-level=<Enum> (Application.log_level)
+    Default: 30
+    Choices: (0, 10, 20, 30, 40, 50, 'DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL')
+    Set the log level by value or name.
+--config=<Unicode> (JupyterApp.config_file)
+    Default: ''
+    Full path of a config file.
+--to=<Unicode> (NbConvertApp.export_format)
+    Default: 'html'
+    The export format to be used, either one of the built-in formats, or a
+    dotted object name that represents the import path for an `Exporter` class
+--template=<Unicode> (TemplateExporter.template_file)
+    Default: ''
+    Name of the template file to use
+--writer=<DottedObjectName> (NbConvertApp.writer_class)
+    Default: 'FilesWriter'
+    Writer class used to write the  results of the conversion
+--post=<DottedOrNone> (NbConvertApp.postprocessor_class)
+    Default: ''
+    PostProcessor class used to write the results of the conversion
+--output=<Unicode> (NbConvertApp.output_base)
+    Default: ''
+    overwrite base name use for output files. can only be used when converting
+    one notebook at a time.
+--output-dir=<Unicode> (FilesWriter.build_directory)
+    Default: ''
+    Directory to write output(s) to. Defaults to output to the directory of each
+    notebook. To recover previous default behaviour (outputting to the current
+    working directory) use . as the flag value.
+--reveal-prefix=<Unicode> (SlidesExporter.reveal_url_prefix)
+    Default: ''
+    The URL prefix for reveal.js (version 3.x). This defaults to the reveal CDN,
+    but can be any url pointing to a copy  of reveal.js.
+    For speaker notes to work, this must be a relative path to a local  copy of
+    reveal.js: e.g., "reveal.js".
+    If a relative path is given, it must be a subdirectory of the current
+    directory (from which the server is run).
+    See the usage documentation
+    (https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-
+    slideshow) for more details.
+--nbformat=<Enum> (NotebookExporter.nbformat_version)
+    Default: 4
+    Choices: [1, 2, 3, 4]
+    The nbformat version to write. Use this to downgrade notebooks.
+
+To see all available configurables, use `--help-all`
+
+Examples
+--------
+
+    The simplest way to use nbconvert is
+    
+    > jupyter nbconvert mynotebook.ipynb
+    
+    which will convert mynotebook.ipynb to the default format (probably HTML).
+    
+    You can specify the export format with `--to`.
+    Options include ['asciidoc', 'custom', 'html', 'latex', 'markdown', 'notebook', 'pdf', 'python', 'rst', 'script', 'slides']
+    
+    > jupyter nbconvert --to latex mynotebook.ipynb
+    
+    Both HTML and LaTeX support multiple output templates. LaTeX includes
+    'base', 'article' and 'report'.  HTML includes 'basic' and 'full'. You
+    can specify the flavor of the format used.
+    
+    > jupyter nbconvert --to html --template basic mynotebook.ipynb
+    
+    You can also pipe the output to stdout, rather than a file
+    
+    > jupyter nbconvert mynotebook.ipynb --stdout
+    
+    PDF is generated via latex
+    
+    > jupyter nbconvert mynotebook.ipynb --to pdf
+    
+    You can get (and serve) a Reveal.js-powered slideshow
+    
+    > jupyter nbconvert myslides.ipynb --to slides --post serve
+    
+    Multiple notebooks can be given at the command line in a couple of 
+    different ways:
+    
+    > jupyter nbconvert notebook*.ipynb
+    > jupyter nbconvert notebook1.ipynb notebook2.ipynb
+    
+    or you can specify the notebooks list in a config file, containing::
+    
+        c.NbConvertApp.notebooks = ["my_notebook.ipynb"]
+    
+    > jupyter nbconvert --config mycfg.py
+
+[I 03:26:01.538 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:26:06.527 LabApp] Saving file at /fastai-resnet18.ipynb
+[NbConvertApp] WARNING | pattern 'train_log/resnet18_fastai/000.23-03-2019-03-20/fastai_resnet18.html' matched no files
+This application is used to convert notebook files (*.ipynb) to various other
+formats.
+
+WARNING: THE COMMANDLINE INTERFACE MAY CHANGE IN FUTURE RELEASES.
+
+Options
+-------
+
+Arguments that take values are actually convenience aliases to full
+Configurables, whose aliases are listed on the help line. For more information
+on full configurables, see '--help-all'.
+
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+--generate-config
+    generate default config file
+-y
+    Answer yes to any questions instead of prompting.
+--execute
+    Execute the notebook prior to export.
+--allow-errors
+    Continue notebook execution even if one of the cells throws an error and include the error message in the cell output (the default behaviour is to abort conversion). This flag is only relevant if '--execute' was specified, too.
+--stdin
+    read a single notebook file from stdin. Write the resulting notebook with default basename 'notebook.*'
+--stdout
+    Write notebook output to stdout instead of files.
+--inplace
+    Run nbconvert in place, overwriting the existing notebook (only 
+    relevant when converting to notebook format)
+--clear-output
+    Clear output of current file and save in place, 
+    overwriting the existing notebook.
+--no-prompt
+    Exclude input and output prompts from converted document.
+--no-input
+    Exclude input cells and output prompts from converted document. 
+    This mode is ideal for generating code-free reports.
+--log-level=<Enum> (Application.log_level)
+    Default: 30
+    Choices: (0, 10, 20, 30, 40, 50, 'DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL')
+    Set the log level by value or name.
+--config=<Unicode> (JupyterApp.config_file)
+    Default: ''
+    Full path of a config file.
+--to=<Unicode> (NbConvertApp.export_format)
+    Default: 'html'
+    The export format to be used, either one of the built-in formats, or a
+    dotted object name that represents the import path for an `Exporter` class
+--template=<Unicode> (TemplateExporter.template_file)
+    Default: ''
+    Name of the template file to use
+--writer=<DottedObjectName> (NbConvertApp.writer_class)
+    Default: 'FilesWriter'
+    Writer class used to write the  results of the conversion
+--post=<DottedOrNone> (NbConvertApp.postprocessor_class)
+    Default: ''
+    PostProcessor class used to write the results of the conversion
+--output=<Unicode> (NbConvertApp.output_base)
+    Default: ''
+    overwrite base name use for output files. can only be used when converting
+    one notebook at a time.
+--output-dir=<Unicode> (FilesWriter.build_directory)
+    Default: ''
+    Directory to write output(s) to. Defaults to output to the directory of each
+    notebook. To recover previous default behaviour (outputting to the current
+    working directory) use . as the flag value.
+--reveal-prefix=<Unicode> (SlidesExporter.reveal_url_prefix)
+    Default: ''
+    The URL prefix for reveal.js (version 3.x). This defaults to the reveal CDN,
+    but can be any url pointing to a copy  of reveal.js.
+    For speaker notes to work, this must be a relative path to a local  copy of
+    reveal.js: e.g., "reveal.js".
+    If a relative path is given, it must be a subdirectory of the current
+    directory (from which the server is run).
+    See the usage documentation
+    (https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-
+    slideshow) for more details.
+--nbformat=<Enum> (NotebookExporter.nbformat_version)
+    Default: 4
+    Choices: [1, 2, 3, 4]
+    The nbformat version to write. Use this to downgrade notebooks.
+
+To see all available configurables, use `--help-all`
+
+Examples
+--------
+
+    The simplest way to use nbconvert is
+    
+    > jupyter nbconvert mynotebook.ipynb
+    
+    which will convert mynotebook.ipynb to the default format (probably HTML).
+    
+    You can specify the export format with `--to`.
+    Options include ['asciidoc', 'custom', 'html', 'latex', 'markdown', 'notebook', 'pdf', 'python', 'rst', 'script', 'slides']
+    
+    > jupyter nbconvert --to latex mynotebook.ipynb
+    
+    Both HTML and LaTeX support multiple output templates. LaTeX includes
+    'base', 'article' and 'report'.  HTML includes 'basic' and 'full'. You
+    can specify the flavor of the format used.
+    
+    > jupyter nbconvert --to html --template basic mynotebook.ipynb
+    
+    You can also pipe the output to stdout, rather than a file
+    
+    > jupyter nbconvert mynotebook.ipynb --stdout
+    
+    PDF is generated via latex
+    
+    > jupyter nbconvert mynotebook.ipynb --to pdf
+    
+    You can get (and serve) a Reveal.js-powered slideshow
+    
+    > jupyter nbconvert myslides.ipynb --to slides --post serve
+    
+    Multiple notebooks can be given at the command line in a couple of 
+    different ways:
+    
+    > jupyter nbconvert notebook*.ipynb
+    > jupyter nbconvert notebook1.ipynb notebook2.ipynb
+    
+    or you can specify the notebooks list in a config file, containing::
+    
+        c.NbConvertApp.notebooks = ["my_notebook.ipynb"]
+    
+    > jupyter nbconvert --config mycfg.py
+
+[I 03:27:47.967 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[E 03:27:48.820 LabApp] nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    http://pandoc.org/installing.html
+    Traceback (most recent call last):
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/notebook/nbconvert/handlers.py", line 130, in get
+        resources=resource_dict
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/pdf.py", line 158, in from_notebook_node
+        nb, resources=resources, **kw
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/latex.py", line 84, in from_notebook_node
+        return super(LatexExporter, self).from_notebook_node(nb, resources, **kw)
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 315, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+        return original_render(self, *args, **kwargs)
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+        return self.environment.handle_exception(exc_info, True)
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+        reraise(exc_type, exc_value, tb)
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+        raise value.with_traceback(tb)
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/article.tplx", line 8, in top-level template code
+        ((* extends cell_style *))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/style_ipython.tplx", line 68, in top-level template code
+        ((( text | add_prompts(first='{\color{' ~ prompt_color ~ '}' ~ prompt ~ '[{\\color{' ~ prompt_color ~ '}' ~ execution_count ~ '}]:} ', cont=indention) )))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/base.tplx", line 6, in top-level template code
+        ((*- extends 'document_contents.tplx' -*))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/document_contents.tplx", line 50, in top-level template code
+        ((*- block figure scoped -*))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/skeleton/display_priority.tplx", line 5, in top-level template code
+        ((*- extends 'null.tplx' -*))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/skeleton/null.tplx", line 30, in top-level template code
+        ((*- block body -*))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/base.tplx", line 188, in block "body"
+        ((( super() )))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/skeleton/null.tplx", line 32, in block "body"
+        ((*- block any_cell scoped -*))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/skeleton/null.tplx", line 85, in block "any_cell"
+        ((*- block markdowncell scoped-*)) ((*- endblock markdowncell -*))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/../templates/latex/document_contents.tplx", line 67, in block "markdowncell"
+        ((( cell.source | citation2latex | strip_files_prefix | convert_pandoc('markdown+tex_math_double_backslash', 'json',extra_args=[]) | resolve_references | convert_pandoc('json','latex'))))
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/filters/pandoc.py", line 26, in convert_pandoc
+        return pandoc(source, from_format, to_format, extra_args=extra_args)
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/utils/pandoc.py", line 52, in pandoc
+        check_pandoc_version()
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/utils/pandoc.py", line 97, in check_pandoc_version
+        v = get_pandoc_version()
+      File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/utils/pandoc.py", line 77, in get_pandoc_version
+        raise PandocMissing()
+    nbconvert.utils.pandoc.PandocMissing: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    http://pandoc.org/installing.html
+[W 03:27:48.832 LabApp] 500 GET /nbconvert/pdf/fastai-resnet18_template.ipynb?download=true (127.0.0.1): nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    http://pandoc.org/installing.html
+[E 03:27:48.838 LabApp] {
+      "Host": "localhost:8888",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Upgrade-Insecure-Requests": "1",
+      "Cookie": "username-localhost-8888=\"2|1:0|10:1553311667|23:username-localhost-8888|44:M2RiZjI5ZGY2ZDY3NDZkMWEzYzdmN2M5NmFkYTEyOGI=|d143bee3f9805bfef66ee35fc98c9b2a75bac0c21e07d82a5cc8e3b97e9c2fb8\"; _xsrf=2|a560dc09|ef68892454e05f3741f9da683523ad7b|1552460907; username-localhost-8889=\"2|1:0|10:1552118240|23:username-localhost-8889|44:MjU0Yjc5NzdkZDFiNDI1NzlmYzBkZTFmZGFmN2E5YzM=|a3297a6dd2a0a8b72545b6d9e49fcadde28c39541dc17d3fb452cb1c6598d763\"; ajs_anonymous_id=%2200000000000000000000000000%22; MMAUTHTOKEN=sxk93a1uxjfk78ce1bypic553y; MMUSERID=jhnggj4j8p8emgc6thdaogchua; ajs_group_id=null; ajs_user_id=%22iabti5pbz3r98c46f8xwzx7eke%22; Hm_lvt_5e1b9d2c20eff9c9278a43f0870f4593=1541653437",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15",
+      "Accept-Language": "en-us",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive"
+    }
+[E 03:27:48.838 LabApp] 500 GET /nbconvert/pdf/fastai-resnet18_template.ipynb?download=true (127.0.0.1) 237.37ms referer=None
+[I 03:28:07.452 LabApp] Saving file at /fastai-resnet18.ipynb
+[NbConvertApp] Converting notebook fastai-resnet18_template.ipynb to html
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] ERROR | Error while converting 'fastai-resnet18_template.ipynb'
 Traceback (most recent call last):
-  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/runpy.py", line 193, in _run_module_as_main
-    "__main__", mod_spec)
-  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/runpy.py", line 85, in _run_code
-    exec(code, run_globals)
-  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
-    app.launch_new_instance()
-  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
-    app.initialize(argv)
-  File "</home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/decorator.py:decorator-gen-124>", line 2, in initialize
-  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
-    return method(app, *args, **kwargs)
-  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 469, in initialize
-    self.init_sockets()
-  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
-    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
-  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
-    s.bind("tcp://%s:%i" % (self.ip, port))
-  File "zmq/backend/cython/socket.pyx", line 547, in zmq.backend.cython.socket.Socket.bind
-  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc
-zmq.error.ZMQError: Address already in use
-[I 10:13:14.567 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
-[I 10:13:15.411 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 10:13:15.412 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
-[I 10:13:15.412 LabApp] Replaying 9 buffered messages
-[I 10:15:10.289 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:17:11.086 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:19:11.554 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:19:57.771 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
-[I 10:20:02.883 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 10:20:03.637 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 10:20:03.638 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
-[I 10:20:03.638 LabApp] Replaying 38 buffered messages
-[I 10:21:12.288 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:23:12.976 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:25:13.746 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:27:16.534 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:30:22.329 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:30:23.688 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
-[I 10:30:28.791 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 10:30:29.504 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 10:30:30.100 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 10:30:30.100 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
-[I 10:30:30.100 LabApp] Replaying 39 buffered messages
-[I 10:30:30.309 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
-[I 10:30:30.825 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 10:30:30.826 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
-[I 10:30:30.826 LabApp] Replaying 3 buffered messages
-[I 10:32:23.240 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:34:24.098 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:46:24.695 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:48:25.279 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:50:25.869 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:52:26.524 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:54:27.026 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 10:56:27.836 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 11:02:30.431 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 11:03:53.416 LabApp] Kernel interrupted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 11:03:57.943 LabApp] Kernel shutdown: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
-[I 11:04:31.062 LabApp] Saving file at /fastai-resnet18.ipynb
-[I 11:04:55.628 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:06:56.269 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:08:56.883 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:10:57.648 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:12:58.142 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:14:58.675 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:16:59.153 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:19:05.869 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:21:06.601 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:23:07.238 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:24:17.734 LabApp] Kernel restarted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:24:17.735 LabApp] Starting buffering for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
-[I 11:24:18.585 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:24:18.586 LabApp] Restoring connection for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
-[I 11:24:18.586 LabApp] Replaying 10 buffered messages
-[I 11:25:08.341 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:27:09.242 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:28:47.989 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:28:48.555 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:28:48.748 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:28:48.911 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:28:55.444 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:29:09.816 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:31:10.567 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:33:11.387 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:35:11.915 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:35:20.171 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:35:20.377 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:35:28.751 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:35:31.781 LabApp] Starting buffering for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
-[I 11:35:37.017 LabApp] Kernel restarted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:35:37.731 LabApp] Kernel restarted: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:35:38.322 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:35:38.322 LabApp] Restoring connection for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
-[I 11:35:38.322 LabApp] Replaying 42 buffered messages
-[I 11:35:38.525 LabApp] Starting buffering for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
-[I 11:35:38.937 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:35:38.938 LabApp] Restoring connection for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
-[I 11:35:38.938 LabApp] Replaying 7 buffered messages
-[I 11:35:42.330 LabApp] Kernel shutdown: b3712bee-e6a0-4386-a98b-4c63b703e643
-[I 11:35:57.495 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:35:57.646 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:35:57.798 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:35:57.989 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:35:58.194 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:35:58.399 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:36:04.956 LabApp] Kernel started: 91f28b53-bfa9-421b-9602-e25d259f3cb1
-[I 11:36:05.481 LabApp] Adapting to protocol v5.1 for kernel 91f28b53-bfa9-421b-9602-e25d259f3cb1
-[I 11:38:04.877 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:40:05.341 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:42:05.880 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:44:06.341 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:46:06.849 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:48:07.286 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:50:08.018 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:52:08.664 LabApp] Saving file at /fastai-resnet34.ipynb
-[I 11:54:09.488 LabApp] Saving file at /fastai-resnet34.ipynb
-[W 11:59:57.660 LabApp] WebSocket ping timeout after 119736 ms.
-[I 12:00:02.663 LabApp] Starting buffering for f57eef36-672f-4985-9995-9525868b961b:ce0a450f-508d-4a9f-aedc-e7aa6f422cc1
-[W 12:00:05.483 LabApp] WebSocket ping timeout after 119779 ms.
-[I 12:00:10.486 LabApp] Starting buffering for 91f28b53-bfa9-421b-9602-e25d259f3cb1:25f329e3-36b2-4903-958f-cab72969fc29
-[I 12:22:55.197 LabApp] Node v10.13.0
-    
-[I 12:22:55.234 LabApp] Build is up to date
-[I 12:22:55.308 LabApp] Adapting to protocol v5.1 for kernel 91f28b53-bfa9-421b-9602-e25d259f3cb1
-[I 12:22:55.778 LabApp] Starting buffering for 91f28b53-bfa9-421b-9602-e25d259f3cb1:5694e2e8-5d6c-4f2f-9673-a3ee44e062e8
-[I 12:22:57.311 LabApp] Kernel started: 20bafe8f-487c-4c62-9fcc-daad04810200
-[I 12:22:57.866 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
-[I 12:22:58.074 LabApp] Adapting to protocol v5.1 for kernel 20bafe8f-487c-4c62-9fcc-daad04810200
-[I 12:22:58.273 LabApp] Adapting to protocol v5.1 for kernel 91f28b53-bfa9-421b-9602-e25d259f3cb1
-[I 12:24:57.174 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:26:27.795 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:26:28.985 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:26:29.223 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:28:29.722 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:30:30.277 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:32:30.702 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:34:31.121 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:36:31.549 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:38:32.178 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:40:32.574 LabApp] Saving file at /proxyles nass.ipynb
-[W 12:43:57.870 LabApp] WebSocket ping timeout after 119842 ms.
-[W 12:43:58.078 LabApp] WebSocket ping timeout after 119844 ms.
-[W 12:43:58.274 LabApp] WebSocket ping timeout after 119842 ms.
-[I 12:44:02.872 LabApp] Starting buffering for f57eef36-672f-4985-9995-9525868b961b:ff6981c1-e19c-40e3-b30a-cc9e6adac689
-[I 12:44:03.080 LabApp] Starting buffering for 20bafe8f-487c-4c62-9fcc-daad04810200:324f3907-bc83-40cb-84dc-041bf6159497
-[I 12:44:03.276 LabApp] Starting buffering for 91f28b53-bfa9-421b-9602-e25d259f3cb1:997dade3-2be8-47af-9bb5-b9777f0d8f3a
-[I 12:47:29.649 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:47:30.718 LabApp] Adapting to protocol v5.1 for kernel 20bafe8f-487c-4c62-9fcc-daad04810200
-[I 12:47:30.718 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
-[I 12:47:30.718 LabApp] Adapting to protocol v5.1 for kernel 91f28b53-bfa9-421b-9602-e25d259f3cb1
-[I 12:47:30.719 LabApp] Restoring connection for 20bafe8f-487c-4c62-9fcc-daad04810200:324f3907-bc83-40cb-84dc-041bf6159497
-[I 12:47:30.720 LabApp] Restoring connection for f57eef36-672f-4985-9995-9525868b961b:ff6981c1-e19c-40e3-b30a-cc9e6adac689
-[I 12:47:30.720 LabApp] Restoring connection for 91f28b53-bfa9-421b-9602-e25d259f3cb1:997dade3-2be8-47af-9bb5-b9777f0d8f3a
-[I 12:50:04.629 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:50:21.317 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:51:28.082 LabApp] Saving file at /proxyles nass.ipynb
-[I 12:51:28.558 LabApp] Starting buffering for 91f28b53-bfa9-421b-9602-e25d259f3cb1:997dade3-2be8-47af-9bb5-b9777f0d8f3a
-[I 12:51:28.560 LabApp] Starting buffering for 20bafe8f-487c-4c62-9fcc-daad04810200:324f3907-bc83-40cb-84dc-041bf6159497
-[I 12:51:28.561 LabApp] Starting buffering for f57eef36-672f-4985-9995-9525868b961b:ff6981c1-e19c-40e3-b30a-cc9e6adac689
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 407, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 178, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 196, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/html.py", line 96, in from_notebook_node
+    output, resources = super(HTMLExporter, self).from_notebook_node(nb, resources, **kw)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/templateexporter.py", line 300, in from_notebook_node
+    nb_copy, resources = super(TemplateExporter, self).from_notebook_node(nb, resources, **kw)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 138, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 315, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 354, in preprocess
+    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 378, in preprocess_cell
+    raise CellExecutionError.from_cell_and_msg(cell, out)
+nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+------------------
+learn.lr_find()
+learn.recorder.plot()
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mException[0m                                 Traceback (most recent call last)
+[0;32m<ipython-input-11-c7a9c29f9dd1>[0m in [0;36m<module>[0;34m[0m
+[0;32m----> 1[0;31m [0mlearn[0m[0;34m.[0m[0mlr_find[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      2[0m [0mlearn[0m[0;34m.[0m[0mrecorder[0m[0;34m.[0m[0mplot[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/miniconda3/envs/dev/lib/python3.6/site-packages/fastai/train.py[0m in [0;36mlr_find[0;34m(learn, start_lr, end_lr, num_it, stop_div, wd)[0m
+[1;32m     30[0m     [0mcb[0m [0;34m=[0m [0mLRFinder[0m[0;34m([0m[0mlearn[0m[0;34m,[0m [0mstart_lr[0m[0;34m,[0m [0mend_lr[0m[0;34m,[0m [0mnum_it[0m[0;34m,[0m [0mstop_div[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     31[0m     [0mepochs[0m [0;34m=[0m [0mint[0m[0;34m([0m[0mnp[0m[0;34m.[0m[0mceil[0m[0;34m([0m[0mnum_it[0m[0;34m/[0m[0mlen[0m[0;34m([0m[0mlearn[0m[0;34m.[0m[0mdata[0m[0;34m.[0m[0mtrain_dl[0m[0;34m)[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 32[0;31m     [0mlearn[0m[0;34m.[0m[0mfit[0m[0;34m([0m[0mepochs[0m[0;34m,[0m [0mstart_lr[0m[0;34m,[0m [0mcallbacks[0m[0;34m=[0m[0;34m[[0m[0mcb[0m[0;34m][0m[0;34m,[0m [0mwd[0m[0;34m=[0m[0mwd[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     33[0m [0;34m[0m[0m
+[1;32m     34[0m def to_fp16(learn:Learner, loss_scale:float=None, max_noskip:int=1000, dynamic:bool=False, clip:float=None,
+
+[0;32m~/miniconda3/envs/dev/lib/python3.6/site-packages/fastai/basic_train.py[0m in [0;36mfit[0;34m(self, epochs, lr, wd, callbacks)[0m
+[1;32m    194[0m         [0mcallbacks[0m [0;34m=[0m [0;34m[[0m[0mcb[0m[0;34m([0m[0mself[0m[0;34m)[0m [0;32mfor[0m [0mcb[0m [0;32min[0m [0mself[0m[0;34m.[0m[0mcallback_fns[0m[0;34m][0m [0;34m+[0m [0mlistify[0m[0;34m([0m[0mcallbacks[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    195[0m         [0;32mif[0m [0mdefaults[0m[0;34m.[0m[0mextra_callbacks[0m [0;32mis[0m [0;32mnot[0m [0;32mNone[0m[0;34m:[0m [0mcallbacks[0m [0;34m+=[0m [0mdefaults[0m[0;34m.[0m[0mextra_callbacks[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 196[0;31m         [0mfit[0m[0;34m([0m[0mepochs[0m[0;34m,[0m [0mself[0m[0;34m,[0m [0mmetrics[0m[0;34m=[0m[0mself[0m[0;34m.[0m[0mmetrics[0m[0;34m,[0m [0mcallbacks[0m[0;34m=[0m[0mself[0m[0;34m.[0m[0mcallbacks[0m[0;34m+[0m[0mcallbacks[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    197[0m [0;34m[0m[0m
+[1;32m    198[0m     [0;32mdef[0m [0mcreate_opt[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mlr[0m[0;34m:[0m[0mFloats[0m[0;34m,[0m [0mwd[0m[0;34m:[0m[0mFloats[0m[0;34m=[0m[0;36m0.[0m[0;34m)[0m[0;34m->[0m[0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/miniconda3/envs/dev/lib/python3.6/site-packages/fastai/basic_train.py[0m in [0;36mfit[0;34m(epochs, learn, callbacks, metrics)[0m
+[1;32m     88[0m     [0mcb_handler[0m [0;34m=[0m [0mCallbackHandler[0m[0;34m([0m[0mcallbacks[0m[0;34m,[0m [0mmetrics[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     89[0m     [0mpbar[0m [0;34m=[0m [0mmaster_bar[0m[0;34m([0m[0mrange[0m[0;34m([0m[0mepochs[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 90[0;31m     [0mcb_handler[0m[0;34m.[0m[0mon_train_begin[0m[0;34m([0m[0mepochs[0m[0;34m,[0m [0mpbar[0m[0;34m=[0m[0mpbar[0m[0;34m,[0m [0mmetrics[0m[0;34m=[0m[0mmetrics[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     91[0m [0;34m[0m[0m
+[1;32m     92[0m     [0mexception[0m[0;34m=[0m[0;32mFalse[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/miniconda3/envs/dev/lib/python3.6/site-packages/fastai/callback.py[0m in [0;36mon_train_begin[0;34m(self, epochs, pbar, metrics)[0m
+[1;32m    262[0m         [0mself[0m[0;34m.[0m[0mstate_dict[0m[0;34m.[0m[0mupdate[0m[0;34m([0m[0mdict[0m[0;34m([0m[0mn_epochs[0m[0;34m=[0m[0mepochs[0m[0;34m,[0m [0mpbar[0m[0;34m=[0m[0mpbar[0m[0;34m,[0m [0mmetrics[0m[0;34m=[0m[0mmetrics[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    263[0m         [0mnames[0m [0;34m=[0m [0;34m[[0m[0;34m([0m[0mmet[0m[0;34m.[0m[0mname[0m [0;32mif[0m [0mhasattr[0m[0;34m([0m[0mmet[0m[0;34m,[0m [0;34m'name'[0m[0;34m)[0m [0;32melse[0m [0mcamel2snake[0m[0;34m([0m[0mmet[0m[0;34m.[0m[0m__class__[0m[0;34m.[0m[0m__name__[0m[0;34m)[0m[0;34m)[0m [0;32mfor[0m [0mmet[0m [0;32min[0m [0mself[0m[0;34m.[0m[0mmetrics[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 264[0;31m         [0mself[0m[0;34m([0m[0;34m'train_begin'[0m[0;34m,[0m [0mmetrics_names[0m[0;34m=[0m[0mnames[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    265[0m         [0;32mif[0m [0mself[0m[0;34m.[0m[0mstate_dict[0m[0;34m[[0m[0;34m'epoch'[0m[0;34m][0m [0;34m!=[0m [0;36m0[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    266[0m             [0mself[0m[0;34m.[0m[0mstate_dict[0m[0;34m[[0m[0;34m'pbar'[0m[0;34m][0m[0;34m.[0m[0mfirst_bar[0m[0;34m.[0m[0mtotal[0m [0;34m-=[0m [0mself[0m[0;34m.[0m[0mstate_dict[0m[0;34m[[0m[0;34m'epoch'[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/miniconda3/envs/dev/lib/python3.6/site-packages/fastai/callback.py[0m in [0;36m__call__[0;34m(self, cb_name, call_mets, **kwargs)[0m
+[1;32m    248[0m         [0;32mif[0m [0mcall_mets[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    249[0m             [0;32mfor[0m [0mmet[0m [0;32min[0m [0mself[0m[0;34m.[0m[0mmetrics[0m[0;34m:[0m [0mself[0m[0;34m.[0m[0m_call_and_update[0m[0;34m([0m[0mmet[0m[0;34m,[0m [0mcb_name[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 250[0;31m         [0;32mfor[0m [0mcb[0m [0;32min[0m [0mself[0m[0;34m.[0m[0mcallbacks[0m[0;34m:[0m [0mself[0m[0;34m.[0m[0m_call_and_update[0m[0;34m([0m[0mcb[0m[0;34m,[0m [0mcb_name[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    251[0m [0;34m[0m[0m
+[1;32m    252[0m     [0;32mdef[0m [0mset_dl[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mdl[0m[0;34m:[0m[0mDataLoader[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/miniconda3/envs/dev/lib/python3.6/site-packages/fastai/callback.py[0m in [0;36m_call_and_update[0;34m(self, cb, cb_name, **kwargs)[0m
+[1;32m    238[0m     [0;32mdef[0m [0m_call_and_update[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mcb[0m[0;34m,[0m [0mcb_name[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m->[0m[0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    239[0m         [0;34m"Call `cb_name` on `cb` and update the inner state."[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 240[0;31m         [0mnew[0m [0;34m=[0m [0mifnone[0m[0;34m([0m[0mgetattr[0m[0;34m([0m[0mcb[0m[0;34m,[0m [0;34mf'on_{cb_name}'[0m[0;34m)[0m[0;34m([0m[0;34m**[0m[0mself[0m[0;34m.[0m[0mstate_dict[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m,[0m [0mdict[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    241[0m         [0;32mfor[0m [0mk[0m[0;34m,[0m[0mv[0m [0;32min[0m [0mnew[0m[0;34m.[0m[0mitems[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    242[0m             [0;32mif[0m [0mk[0m [0;32mnot[0m [0;32min[0m [0mself[0m[0;34m.[0m[0mstate_dict[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/miniconda3/envs/dev/lib/python3.6/site-packages/fastai/callbacks/lr_finder.py[0m in [0;36mon_train_begin[0;34m(self, pbar, **kwargs)[0m
+[1;32m     21[0m         [0;34m"Initialize optimizer and learner hyperparameters."[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     22[0m         [0msetattr[0m[0;34m([0m[0mpbar[0m[0;34m,[0m [0;34m'clean_on_interrupt'[0m[0;34m,[0m [0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 23[0;31m         [0mself[0m[0;34m.[0m[0mlearn[0m[0;34m.[0m[0msave[0m[0;34m([0m[0;34m'tmp'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     24[0m         [0mself[0m[0;34m.[0m[0mopt[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mlearn[0m[0;34m.[0m[0mopt[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     25[0m         [0mself[0m[0;34m.[0m[0mopt[0m[0;34m.[0m[0mlr[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0msched[0m[0;34m.[0m[0mstart[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/miniconda3/envs/dev/lib/python3.6/site-packages/fastai/basic_train.py[0m in [0;36msave[0;34m(self, name, return_path, with_opt)[0m
+[1;32m    243[0m     [0;32mdef[0m [0msave[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mname[0m[0;34m:[0m[0mPathOrStr[0m[0;34m,[0m [0mreturn_path[0m[0;34m:[0m[0mbool[0m[0;34m=[0m[0;32mFalse[0m[0;34m,[0m [0mwith_opt[0m[0;34m:[0m[0mbool[0m[0;34m=[0m[0;32mTrue[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    244[0m         [0;34m"Save model and optimizer state (if `with_opt`) with `name` to `self.model_dir`."[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 245[0;31m         [0mself[0m[0;34m.[0m[0m_test_writeable_path[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    246[0m         [0;32mif[0m [0mrank_distrib[0m[0;34m([0m[0;34m)[0m[0;34m:[0m [0;32mreturn[0m [0;31m# don't save if slave proc[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    247[0m         [0mpath[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mpath[0m[0;34m/[0m[0mself[0m[0;34m.[0m[0mmodel_dir[0m[0;34m/[0m[0;34mf'{name}.pth'[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/miniconda3/envs/dev/lib/python3.6/site-packages/fastai/basic_train.py[0m in [0;36m_test_writeable_path[0;34m(self)[0m
+[1;32m    175[0m         [0;32mtry[0m[0;34m:[0m [0mtmp_file[0m [0;34m=[0m [0mget_tmp_file[0m[0;34m([0m[0mpath[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    176[0m         [0;32mexcept[0m [0mOSError[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 177[0;31m             [0;32mraise[0m [0mException[0m[0;34m([0m[0;34mf"{e}\nCan't write to '{path}', set `learn.model_dir` attribute in Learner to a full libpath path that is writable"[0m[0;34m)[0m [0;32mfrom[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    178[0m         [0mos[0m[0;34m.[0m[0mremove[0m[0;34m([0m[0mtmp_file[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    179[0m [0;34m[0m[0m
+
+[0;31mException[0m: [Errno 2] No such file or directory: '/home/qnkhuat/data/emotion_compilation_split/train_log/resnet18_fastai/000.23-03-2019-03-28/tmpntafa300'
+Can't write to '/home/qnkhuat/data/emotion_compilation_split/train_log/resnet18_fastai/000.23-03-2019-03-28', set `learn.model_dir` attribute in Learner to a full libpath path that is writable
+Exception: [Errno 2] No such file or directory: '/home/qnkhuat/data/emotion_compilation_split/train_log/resnet18_fastai/000.23-03-2019-03-28/tmpntafa300'
+Can't write to '/home/qnkhuat/data/emotion_compilation_split/train_log/resnet18_fastai/000.23-03-2019-03-28', set `learn.model_dir` attribute in Learner to a full libpath path that is writable
+
+[I 03:29:59.091 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:32:23.454 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:36:24.159 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:38:24.906 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[NbConvertApp] Converting notebook fastai-resnet18_template.ipynb to html
+[NbConvertApp] Writing 363279 bytes to fastai-resnet18_template.html
+[NbConvertApp] Converting notebook fastai-resnet18_template.ipynb to html
+[NbConvertApp] Writing 363279 bytes to fastai-resnet18_template.html
+[NbConvertApp] Converting notebook fastai-resnet18_template.ipynb to html
+[NbConvertApp] Writing 363279 bytes to model_save_dir/fastai-resnet18_template.html
+[I 03:40:25.578 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:40:36.089 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:40:36.895 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:40:44.281 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:40:45.293 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:40:46.113 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:40:46.827 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:41:33.861 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:42:09.142 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:43:27.096 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:44:10.385 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:44:33.270 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:44:34.791 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:45:22.019 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:45:24.482 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:45:30.070 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:45:31.285 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:00.991 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:01.217 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:01.397 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:02.025 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:02.194 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:02.331 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:02.439 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:02.635 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:02.983 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:03.333 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:03.499 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:03.628 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:03.749 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:03.918 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:46:11.039 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:48:12.444 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:50:13.049 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:52:13.684 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:53:32.444 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:53:46.309 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:54:07.567 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 03:54:12.096 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[W 03:55:15.452 LabApp] 404 GET /api/contents/fastai-resnet18_template.ipynb?content=0&1553313315336 (127.0.0.1): No such file or directory: fastai-resnet18_template.ipynb
+[W 03:55:15.453 LabApp] No such file or directory: fastai-resnet18_template.ipynb
+[W 03:55:15.453 LabApp] 404 GET /api/contents/fastai-resnet18_template.ipynb?content=0&1553313315336 (127.0.0.1) 1.86ms referer=http://localhost:8888/lab
+[I 03:55:15.836 LabApp] Uploading file to /fastai-resnet18_template.ipynb
+[I 03:55:16.692 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:16.872 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:17.433 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:17.707 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:17.928 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:17.977 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:18.170 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:22.057 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:23.365 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:23.570 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:23.873 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:23.919 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:24.154 LabApp] Saving file at /fastai-resnet18_template.ipynb
+[I 03:55:48.199 LabApp] Kernel shutdown: 1157f996-3a9a-42f7-a9c8-8da001f8cefd
+[I 03:55:51.620 LabApp] Kernel shutdown: 7f19adfd-4d8f-4661-9db9-35d5b971445a
+[I 03:55:54.604 LabApp] Kernel shutdown: a104537c-b7f0-4340-8112-fbb76b9a72be
+[I 03:55:59.631 LabApp] Kernel started: f3dc4d24-2dfa-45fe-937f-dae2668f97a8
+[I 03:56:00.232 LabApp] Adapting to protocol v5.1 for kernel f3dc4d24-2dfa-45fe-937f-dae2668f97a8
+[I 03:56:57.935 LabApp] Saving file at /template.ipynb
+[I 03:56:58.116 LabApp] Saving file at /template.ipynb
+[I 03:56:58.806 LabApp] Saving file at /template.ipynb
+[I 03:57:00.655 LabApp] Saving file at /template.ipynb
+[I 03:57:01.036 LabApp] Saving file at /template.ipynb
+[I 03:57:01.079 LabApp] Saving file at /template.ipynb
+[I 03:57:01.218 LabApp] Saving file at /template.ipynb
