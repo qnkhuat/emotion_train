@@ -74,3 +74,88 @@
 [I 08:59:30.143 LabApp] Saving file at /resnet18-fastai.ipynb
 [I 08:59:30.365 LabApp] Saving file at /resnet18-fastai.ipynb
 [I 08:59:30.539 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:00:04.679 LabApp] Kernel started: e719c061-14f8-48f0-92cd-9251bc5454fe
+[I 09:00:05.498 LabApp] Adapting to protocol v5.1 for kernel e719c061-14f8-48f0-92cd-9251bc5454fe
+[I 09:00:10.125 LabApp] Kernel started: db5a8851-b98a-4cc9-a739-18787e397207
+[I 09:00:10.732 LabApp] Adapting to protocol v5.1 for kernel db5a8851-b98a-4cc9-a739-18787e397207
+[I 09:00:21.642 LabApp] Kernel started: 1d738028-45ec-4566-8af5-b838899640d5
+[I 09:00:22.889 LabApp] Adapting to protocol v5.1 for kernel 1d738028-45ec-4566-8af5-b838899640d5
+[I 09:00:59.417 LabApp] Saving file at /xception-fastai.ipynb
+[I 09:01:00.176 LabApp] Saving file at /xception-fastai.ipynb
+[I 09:02:04.578 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:02:10.168 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:03:01.215 LabApp] Saving file at /xception-fastai.ipynb
+[I 09:04:05.481 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:04:10.883 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:05:01.789 LabApp] Saving file at /xception-fastai.ipynb
+[I 09:05:42.534 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:05:42.866 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:05:43.006 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:05:46.245 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:05:48.459 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:05:48.805 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:06:06.246 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:06:11.560 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:06:27.618 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:06:29.251 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:06:29.435 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:06:29.749 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:06:29.949 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:06:33.867 LabApp] Kernel interrupted: e719c061-14f8-48f0-92cd-9251bc5454fe
+[I 09:06:36.054 LabApp] Kernel interrupted: db5a8851-b98a-4cc9-a739-18787e397207
+[I 09:06:36.333 LabApp] Kernel interrupted: db5a8851-b98a-4cc9-a739-18787e397207
+[I 09:06:41.841 LabApp] Kernel shutdown: e719c061-14f8-48f0-92cd-9251bc5454fe
+[I 09:06:44.242 LabApp] Kernel shutdown: db5a8851-b98a-4cc9-a739-18787e397207
+[I 09:06:50.952 LabApp] Kernel shutdown: 1d738028-45ec-4566-8af5-b838899640d5
+[I 09:06:51.571 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:06:51.606 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:06:51.640 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:06:51.802 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:06:51.836 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:06:51.872 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:06:51.988 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:06:55.412 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:06:56.228 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:06:56.403 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:06:58.360 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:06:58.534 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:06:58.703 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:06:58.838 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:07:06.156 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:07:07.377 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:07:10.037 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:07:10.831 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:07:11.077 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:07:15.660 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:07:15.894 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:07:17.298 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:07:17.498 LabApp] Saving file at /resnet34-fastai.ipynb
+[I 09:07:20.539 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:07:20.705 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:07:23.133 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:07:23.660 LabApp] Saving file at /vgg_16bn-fastai.ipynb
+[I 09:08:11.861 LabApp] Kernel started: 7c90d0aa-5c7b-46ae-97cf-961128c50531
+[I 09:08:12.819 LabApp] Adapting to protocol v5.1 for kernel 7c90d0aa-5c7b-46ae-97cf-961128c50531
+[I 09:08:29.529 LabApp] Saving file at /training_template.ipynb
+[I 09:08:29.812 LabApp] Saving file at /training_template.ipynb
+[I 09:08:30.349 LabApp] Saving file at /training_template.ipynb
+[I 09:08:30.633 LabApp] Saving file at /training_template.ipynb
+[I 09:08:30.681 LabApp] Saving file at /training_template.ipynb
+[I 09:08:30.890 LabApp] Saving file at /training_template.ipynb
+[I 09:08:30.986 LabApp] Saving file at /training_template.ipynb
+[I 09:08:32.031 LabApp] Saving file at /training_template.ipynb
+[I 09:08:33.048 LabApp] Saving file at /training_template.ipynb
+[I 09:08:33.094 LabApp] Saving file at /training_template.ipynb
+[I 09:08:33.345 LabApp] Saving file at /training_template.ipynb
+[I 09:08:34.303 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:08:34.329 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:08:36.994 LabApp] Saving file at /resnet18-fastai.ipynb
+[I 09:08:41.176 LabApp] Saving file at /training_template.ipynb
+[I 09:08:44.930 LabApp] Kernel started: 70910cd6-8187-4bdf-baf1-1f3e5b7890e7
+[I 09:08:45.568 LabApp] Adapting to protocol v5.1 for kernel 70910cd6-8187-4bdf-baf1-1f3e5b7890e7
+[I 09:08:47.523 LabApp] Kernel started: 9e540187-1e49-4a38-aad3-d4a6e51c0e91
+[I 09:08:48.547 LabApp] Adapting to protocol v5.1 for kernel 9e540187-1e49-4a38-aad3-d4a6e51c0e91
+[I 09:08:49.736 LabApp] Kernel started: 6692a228-04e8-4b56-a2ba-1ebd301fad11
+[I 09:08:50.382 LabApp] Adapting to protocol v5.1 for kernel 6692a228-04e8-4b56-a2ba-1ebd301fad11
+[I 09:09:07.029 LabApp] Saving file at /training_template.ipynb
+[I 09:09:07.290 LabApp] Saving file at /training_template.ipynb
