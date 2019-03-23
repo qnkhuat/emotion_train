@@ -79,3 +79,191 @@ THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : i
 [I 14:37:24.550 LabApp] Starting buffering for b3712bee-e6a0-4386-a98b-4c63b703e643:dfeba864-bf8c-4d1f-a72f-a4bcb6106b76
 [I 14:37:24.551 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:04e4c769-17b4-42bc-a09b-61d82c302bec
 [I 14:37:24.551 LabApp] Starting buffering for f57eef36-672f-4985-9995-9525868b961b:4c117081-ea8d-40a3-9a63-0ba7152f48b0
+[I 09:31:07.432 LabApp] 302 GET / (127.0.0.1) 0.67ms
+[I 09:31:07.893 LabApp] 302 GET / (127.0.0.1) 0.39ms
+[I 09:31:24.324 LabApp] Node v10.13.0
+    
+[I 09:31:24.335 LabApp] Build is up to date
+[I 09:31:26.566 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 09:31:26.581 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 09:31:27.658 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
+[I 09:31:54.135 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
+[I 09:33:26.664 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:35:22.466 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:47:22.852 LabApp] Saving file at /proxyles nass.ipynb
+[I 09:47:54.387 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 09:49:57.417 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 09:53:57.873 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 09:54:21.895 LabApp] Kernel interrupted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 09:55:58.547 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 09:57:59.788 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:00:00.364 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:02:01.052 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:04:01.543 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:06:02.123 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:08:02.541 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:10:03.063 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:12:03.631 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:13:09.415 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:13:10.656 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
+[I 10:13:11.566 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+Traceback (most recent call last):
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "</home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/decorator.py:decorator-gen-124>", line 2, in initialize
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 469, in initialize
+    self.init_sockets()
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 238, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/qnkhuat/miniconda3/envs/dev/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 180, in _bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "zmq/backend/cython/socket.pyx", line 547, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 10:13:14.567 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[I 10:13:15.411 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 10:13:15.412 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
+[I 10:13:15.412 LabApp] Replaying 9 buffered messages
+[I 10:15:10.289 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:17:11.086 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:19:11.554 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:19:57.771 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
+[I 10:20:02.883 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 10:20:03.637 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 10:20:03.638 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
+[I 10:20:03.638 LabApp] Replaying 38 buffered messages
+[I 10:21:12.288 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:23:12.976 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:25:13.746 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:27:16.534 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:30:22.329 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:30:23.688 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
+[I 10:30:28.791 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 10:30:29.504 LabApp] Kernel restarted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 10:30:30.100 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 10:30:30.100 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
+[I 10:30:30.100 LabApp] Replaying 39 buffered messages
+[I 10:30:30.309 LabApp] Starting buffering for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
+[I 10:30:30.825 LabApp] Adapting to protocol v5.1 for kernel 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 10:30:30.826 LabApp] Restoring connection for 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66:913cc877-7426-49a9-a2f5-c4d8c0c31f24
+[I 10:30:30.826 LabApp] Replaying 3 buffered messages
+[I 10:32:23.240 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:34:24.098 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:46:24.695 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:48:25.279 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:50:25.869 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:52:26.524 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:54:27.026 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 10:56:27.836 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 11:02:30.431 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 11:03:53.416 LabApp] Kernel interrupted: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 11:03:57.943 LabApp] Kernel shutdown: 74cc5b75-aa3b-43ef-a3f6-ca305f4aae66
+[I 11:04:31.062 LabApp] Saving file at /fastai-resnet18.ipynb
+[I 11:04:55.628 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:06:56.269 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:08:56.883 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:10:57.648 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:12:58.142 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:14:58.675 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:16:59.153 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:19:05.869 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:21:06.601 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:23:07.238 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:24:17.734 LabApp] Kernel restarted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:24:17.735 LabApp] Starting buffering for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
+[I 11:24:18.585 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:24:18.586 LabApp] Restoring connection for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
+[I 11:24:18.586 LabApp] Replaying 10 buffered messages
+[I 11:25:08.341 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:27:09.242 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:28:47.989 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:28:48.555 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:28:48.748 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:28:48.911 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:28:55.444 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:29:09.816 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:31:10.567 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:33:11.387 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:35:11.915 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:35:20.171 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:35:20.377 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:35:28.751 LabApp] Kernel interrupted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:35:31.781 LabApp] Starting buffering for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
+[I 11:35:37.017 LabApp] Kernel restarted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:35:37.731 LabApp] Kernel restarted: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:35:38.322 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:35:38.322 LabApp] Restoring connection for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
+[I 11:35:38.322 LabApp] Replaying 42 buffered messages
+[I 11:35:38.525 LabApp] Starting buffering for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
+[I 11:35:38.937 LabApp] Adapting to protocol v5.1 for kernel b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:35:38.938 LabApp] Restoring connection for b3712bee-e6a0-4386-a98b-4c63b703e643:853d3741-059f-46b5-b44c-970992eb43f7
+[I 11:35:38.938 LabApp] Replaying 7 buffered messages
+[I 11:35:42.330 LabApp] Kernel shutdown: b3712bee-e6a0-4386-a98b-4c63b703e643
+[I 11:35:57.495 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:35:57.646 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:35:57.798 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:35:57.989 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:35:58.194 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:35:58.399 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:36:04.956 LabApp] Kernel started: 91f28b53-bfa9-421b-9602-e25d259f3cb1
+[I 11:36:05.481 LabApp] Adapting to protocol v5.1 for kernel 91f28b53-bfa9-421b-9602-e25d259f3cb1
+[I 11:38:04.877 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:40:05.341 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:42:05.880 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:44:06.341 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:46:06.849 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:48:07.286 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:50:08.018 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:52:08.664 LabApp] Saving file at /fastai-resnet34.ipynb
+[I 11:54:09.488 LabApp] Saving file at /fastai-resnet34.ipynb
+[W 11:59:57.660 LabApp] WebSocket ping timeout after 119736 ms.
+[I 12:00:02.663 LabApp] Starting buffering for f57eef36-672f-4985-9995-9525868b961b:ce0a450f-508d-4a9f-aedc-e7aa6f422cc1
+[W 12:00:05.483 LabApp] WebSocket ping timeout after 119779 ms.
+[I 12:00:10.486 LabApp] Starting buffering for 91f28b53-bfa9-421b-9602-e25d259f3cb1:25f329e3-36b2-4903-958f-cab72969fc29
+[I 12:22:55.197 LabApp] Node v10.13.0
+    
+[I 12:22:55.234 LabApp] Build is up to date
+[I 12:22:55.308 LabApp] Adapting to protocol v5.1 for kernel 91f28b53-bfa9-421b-9602-e25d259f3cb1
+[I 12:22:55.778 LabApp] Starting buffering for 91f28b53-bfa9-421b-9602-e25d259f3cb1:5694e2e8-5d6c-4f2f-9673-a3ee44e062e8
+[I 12:22:57.311 LabApp] Kernel started: 20bafe8f-487c-4c62-9fcc-daad04810200
+[I 12:22:57.866 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
+[I 12:22:58.074 LabApp] Adapting to protocol v5.1 for kernel 20bafe8f-487c-4c62-9fcc-daad04810200
+[I 12:22:58.273 LabApp] Adapting to protocol v5.1 for kernel 91f28b53-bfa9-421b-9602-e25d259f3cb1
+[I 12:24:57.174 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:26:27.795 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:26:28.985 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:26:29.223 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:28:29.722 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:30:30.277 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:32:30.702 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:34:31.121 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:36:31.549 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:38:32.178 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:40:32.574 LabApp] Saving file at /proxyles nass.ipynb
+[W 12:43:57.870 LabApp] WebSocket ping timeout after 119842 ms.
+[W 12:43:58.078 LabApp] WebSocket ping timeout after 119844 ms.
+[W 12:43:58.274 LabApp] WebSocket ping timeout after 119842 ms.
+[I 12:44:02.872 LabApp] Starting buffering for f57eef36-672f-4985-9995-9525868b961b:ff6981c1-e19c-40e3-b30a-cc9e6adac689
+[I 12:44:03.080 LabApp] Starting buffering for 20bafe8f-487c-4c62-9fcc-daad04810200:324f3907-bc83-40cb-84dc-041bf6159497
+[I 12:44:03.276 LabApp] Starting buffering for 91f28b53-bfa9-421b-9602-e25d259f3cb1:997dade3-2be8-47af-9bb5-b9777f0d8f3a
+[I 12:47:29.649 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:47:30.718 LabApp] Adapting to protocol v5.1 for kernel 20bafe8f-487c-4c62-9fcc-daad04810200
+[I 12:47:30.718 LabApp] Adapting to protocol v5.1 for kernel f57eef36-672f-4985-9995-9525868b961b
+[I 12:47:30.718 LabApp] Adapting to protocol v5.1 for kernel 91f28b53-bfa9-421b-9602-e25d259f3cb1
+[I 12:47:30.719 LabApp] Restoring connection for 20bafe8f-487c-4c62-9fcc-daad04810200:324f3907-bc83-40cb-84dc-041bf6159497
+[I 12:47:30.720 LabApp] Restoring connection for f57eef36-672f-4985-9995-9525868b961b:ff6981c1-e19c-40e3-b30a-cc9e6adac689
+[I 12:47:30.720 LabApp] Restoring connection for 91f28b53-bfa9-421b-9602-e25d259f3cb1:997dade3-2be8-47af-9bb5-b9777f0d8f3a
+[I 12:50:04.629 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:50:21.317 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:51:28.082 LabApp] Saving file at /proxyles nass.ipynb
+[I 12:51:28.558 LabApp] Starting buffering for 91f28b53-bfa9-421b-9602-e25d259f3cb1:997dade3-2be8-47af-9bb5-b9777f0d8f3a
+[I 12:51:28.560 LabApp] Starting buffering for 20bafe8f-487c-4c62-9fcc-daad04810200:324f3907-bc83-40cb-84dc-041bf6159497
+[I 12:51:28.561 LabApp] Starting buffering for f57eef36-672f-4985-9995-9525868b961b:ff6981c1-e19c-40e3-b30a-cc9e6adac689
