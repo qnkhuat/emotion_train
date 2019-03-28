@@ -1,0 +1,5 @@
+0 - 84.3
+Note for version 0 model densenet161-fastai:
+Tried the first time, out of memory while training
+Next time will do with 2 time training sizes
+

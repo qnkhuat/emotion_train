@@ -1,0 +1,32 @@
+nohup: ignoring input
+train_log/densenet-fastai/008.28-03-2019-05-20
+
+Note for version 8 model densenet-fastai:
+Train for a long time
+
+ImageDataBunch;
+
+Train: LabelList (73220 items)
+x: ImageList
+Image (3, 48, 48),Image (3, 48, 48),Image (3, 48, 48),Image (3, 48, 48),Image (3, 48, 48)
+y: CategoryList
+angry,angry,angry,angry,angry
+Path: /home/qnkhuat/data/emotion_compilation_split;
+
+Valid: LabelList (12985 items)
+x: ImageList
+Image (3, 48, 48),Image (3, 48, 48),Image (3, 48, 48),Image (3, 48, 48),Image (3, 48, 48)
+y: CategoryList
+angry,angry,angry,angry,angry
+Path: /home/qnkhuat/data/emotion_compilation_split;
+
+Test: LabelList (9673 items)
+x: ImageList
+Image (3, 48, 48),Image (3, 48, 48),Image (3, 48, 48),Image (3, 48, 48),Image (3, 48, 48)
+y: EmptyLabelList
+,,,,
+Path: /home/qnkhuat/data/emotion_compilation_split
+epoch     train_loss  valid_loss  accuracy  time    
+0         1.003784    1.103414    0.614016  04:41     
+1         0.874351    0.903710    0.684944  04:48     
+2         0.828169    0.819207    0.714748  04:46     
