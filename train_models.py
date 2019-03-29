@@ -6,13 +6,15 @@ import time
 
 from fastai.vision import ImageDataBunch,ImageList,get_transforms,models,cnn_learner,accuracy,imagenet_stats
 from fastai.vision import ShowGraph,partial
+from pathlib import Path
 import torch
 
 
 start = time.time()
 # vars for models logging
 TRAIN_LOG_DIR = 'train_log'
-NB_NAME = 'densenet-fastai.ipynb'
+#NB_NAME = 'densenet-fastai.ipynb'
+NB_NAME = 'resnet18-fastai.ipynb'
 MODEL_NAME = NB_NAME.split('.')[0]
 
 os.makedirs(pjoin(TRAIN_LOG_DIR,MODEL_NAME),exist_ok=True)
@@ -45,11 +47,13 @@ print(data)
 
 
 
-model = models.densenet121
+model = models.resnet18
+#model = models.densenet121
 
 learn = cnn_learner(data, model,callback_fns=[ShowGraph])
 ### THE DIRECTORY TO SAVE CHECKPOINTS
-learn.model_dir = os.path.abspath(model_save_dir)
+learn.path = Path(model_save_dir)
+learn.model_dir = model_save_dir
 learn.metrics = [accuracy]
 
 
@@ -57,15 +61,12 @@ learn.metrics = [accuracy]
 ### START TRAINING
 lr=5e-2
 learn.fit_one_cycle(12,max_lr = slice(1e-4,lr))
-learn.save('stage-1')
 
 # Unfreeze
 learn.unfreeze()
 learn.fit(15)
-learn.save('stage-2')
 # Refereeze
 learn.fit_one_cycle(9,slice(1e-6,1e-3))
-learn.save('stage-3')
 tta = accuracy(*learn.TTA()).item()*100
 print('Done round 1')
 print(tta)
@@ -86,19 +87,16 @@ lr = 1e-2
 
 
 learn.fit_one_cycle(12,max_lr = slice(1e-4,lr))
-learn.save('stage-4')
 
 # Unfreeze
 learn.unfreeze()
 learn.fit(15)
-learn.save('stage-5')
 # Refereeze
 learn.fit_one_cycle(9,slice(1e-6,1e-3))
-learn.save('stage-6')
 tta = accuracy(*learn.TTA()).item()*100
 print('Done round 2')
 print(tta)
-learn.export('densenet121')
+learn.export(f'{MODEL_NAME}.pkl')
 
 print(f'Total time {time.time() - start}')
 
